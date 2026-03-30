@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="uz" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HukuqBot — O'zbekistonda AI yuridik maslahat</title>
+    <meta name="description" content="Sun'iy intellekt yordamida yuridik maslahat oling. Fuqarolik, mehnat, iste'molchi huquqlari. Bepul.">
+    
+    <meta name="keywords" content="yurist maslahat, huquqiy yordam uzbekiston, ai lawyer uzbekistan">
+    
+    <link rel="alternate" hreflang="uz" href="https://smarthelp.ai/uz/lawyer">
+    <link rel="canonical" href="https://smarthelp.ai/uz/lawyer">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root { --primary: #1a8547; }
+        .bg-primary { background-color: var(--primary); }
+        .text-primary { color: var(--primary); }
+        .border-primary { border-color: var(--primary); }
+        #chat-widget { display: none; position: fixed; bottom: 80px; right: 20px; width: 380px; height: 500px; border-radius: 16px; box-shadow: 0 10px 40px rgba(0,0,0,0.2); z-index: 1000; background: white; overflow: hidden; }
+        #chat-toggle { position: fixed; bottom: 20px; right: 20px; width: 56px; height: 56px; border-radius: 50%; z-index: 1001; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 24px; box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
+        .message-user { background: #e3f2fd; border-radius: 16px 16px 4px 16px; }
+        .message-bot { background: #f5f5f5; border-radius: 16px 16px 16px 4px; }
+        @media (max-width: 640px) { #chat-widget { width: calc(100% - 20px); right: 10px; bottom: 70px; height: 60vh; } }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Header -->
+    <header class="bg-white shadow-sm">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-primary">HukuqBot</h1>
+            <div class="flex gap-3">
+                
+                <a href="https://t.me/HukuqBot" class="bg-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:opacity-90">
+                    💬 Telegram
+                </a>
+                
+                <a href="#pricing" class="border border-primary text-primary px-4 py-2 rounded-lg text-sm font-medium hover:bg-gray-50">
+                    📋 Tariflar
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="bg-white py-16">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <div class="text-5xl mb-4">⚖️</div>
+            <h2 class="text-3xl md:text-4xl font-bold mb-4">HukuqBot</h2>
+            <p class="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">Sun'iy intellekt bilan yuridik maslahat</p>
+            <div class="flex gap-4 justify-center flex-wrap">
+                <button onclick="toggleChat()" class="bg-primary text-white px-8 py-3 rounded-xl text-lg font-medium hover:opacity-90 transition">
+                    💬 Bepul sinab ko'ring
+                </button>
+                
+                <a href="https://t.me/HukuqBot" class="border-2 border-primary text-primary px-8 py-3 rounded-xl text-lg font-medium hover:bg-gray-50 transition">
+                    📱 Telegramda ochish
+                </a>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- How it works -->
+    <section class="py-16">
+        <div class="max-w-4xl mx-auto px-4">
+            <h3 class="text-2xl font-bold text-center mb-10">Qanday ishlaydi</h3>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl mb-3">❓</div>
+                    <h4 class="font-semibold mb-2">Ask a question</h4>
+                    <p class="text-gray-600 text-sm">Type your question in any format — our AI understands natural language.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl mb-3">🤖</div>
+                    <h4 class="font-semibold mb-2">AI analyzes</h4>
+                    <p class="text-gray-600 text-sm">Our AI searches through verified knowledge base to find the most relevant answer.</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl mb-3">✅</div>
+                    <h4 class="font-semibold mb-2">Get your answer</h4>
+                    <p class="text-gray-600 text-sm">Receive a clear, structured answer in seconds. Follow up if needed.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Example questions -->
+    
+
+    <!-- Pricing -->
+    <section id="pricing" class="py-16">
+        <div class="max-w-4xl mx-auto px-4">
+            <h3 class="text-2xl font-bold text-center mb-10">Tarifni tanlang</h3>
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Free -->
+                <div class="border rounded-2xl p-6 bg-white">
+                    <h4 class="text-lg font-bold mb-1">🆓 Free</h4>
+                    <p class="text-3xl font-bold mb-4">$0</p>
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                        <li>✅ 3 savol/kun</li>
+                        <li>✅ Asosiy javoblar</li>
+                    </ul>
+                    <button onclick="toggleChat()" class="w-full border border-primary text-primary py-2 rounded-lg font-medium hover:bg-gray-50">
+                        Bepul boshlash
+                    </button>
+                </div>
+                
+                <!-- Basic -->
+                <div class="border-2 border-primary rounded-2xl p-6 bg-white relative">
+                    <div class="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs px-3 py-1 rounded-full">
+                        Ommabop
+                    </div>
+                    <h4 class="text-lg font-bold mb-1">⭐ Basic</h4>
+                    <p class="text-3xl font-bold mb-4">$7.0<span class="text-sm font-normal text-gray-500">/oy</span></p>
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                        <li>✅ 30 savol/kun</li>
+                        
+                        <li>✅ Basic Answers</li>
+                        
+                        <li>✅ Chat History</li>
+                        
+                    </ul>
+                    <a href="/pay/uz-lawyer/basic" class="block w-full bg-primary text-white text-center py-2 rounded-lg font-medium hover:opacity-90">
+                        Faollashtirish
+                    </a>
+                </div>
+                
+                <!-- Pro -->
+                <div class="border rounded-2xl p-6 bg-white">
+                    <h4 class="text-lg font-bold mb-1">🚀 Pro</h4>
+                    <p class="text-3xl font-bold mb-4">$15.0<span class="text-sm font-normal text-gray-500">/oy</span></p>
+                    <ul class="text-sm text-gray-600 space-y-2 mb-6">
+                        <li>✅ Cheksiz savol/kun</li>
+                        
+                        <li>✅ All</li>
+                        
+                    </ul>
+                    <a href="/pay/uz-lawyer/pro" class="block w-full border border-gray-300 text-gray-700 text-center py-2 rounded-lg font-medium hover:bg-gray-50">
+                        Faollashtirish
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Disclaimer -->
+    
+    <section class="py-8">
+        <div class="max-w-3xl mx-auto px-4">
+            <div class="bg-amber-50 border border-amber-200 rounded-xl p-4 text-sm text-amber-800">
+                Eslatma: Men sun'iy intellektman va yurist emasman.
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-400 py-8">
+        <div class="max-w-4xl mx-auto px-4 text-center text-sm">
+            <p>© 2026 HukuqBot. Powered by SmartHelp AI.</p>
+            <div class="mt-2 space-x-4">
+                <a href="/terms" class="hover:text-white">Terms</a>
+                <a href="/privacy" class="hover:text-white">Privacy</a>
+                
+                <a href="https://t.me/HukuqBot" class="hover:text-white">Telegram</a>
+                
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Widget -->
+    <div id="chat-widget">
+        <div class="bg-primary text-white p-4 flex justify-between items-center">
+            <span class="font-semibold">HukuqBot</span>
+            <button onclick="toggleChat()" class="text-white text-xl">&times;</button>
+        </div>
+        <div id="chat-messages" class="p-4 h-[380px] overflow-y-auto space-y-3">
+            <div class="message-bot p-3 max-w-[85%] text-sm">
+                🇺🇿 Assalomu alaykum! Men HukuqBot — sun'iy intellekt yordamida yuridik maslahat beraman.
+Fuqarolik, mehnat va iste'molchi huquqlari bo'yicha savollaringizga javob beraman.
+
+⚖️ Muhim: Men yurist...
+            </div>
+        </div>
+        <div class="p-3 border-t flex gap-2">
+            <input id="chat-input" type="text" placeholder="Savolingizni yozing..."
+                   class="flex-1 border rounded-lg px-3 py-2 text-sm focus:outline-none focus:border-primary"
+                   onkeydown="if(event.key==='Enter')sendMessage()">
+            <button onclick="sendMessage()" class="bg-primary text-white px-4 py-2 rounded-lg text-sm font-medium">→</button>
+        </div>
+    </div>
+
+    <!-- Chat Toggle Button -->
+    <div id="chat-toggle" class="bg-primary text-white" onclick="toggleChat()">💬</div>
+
+    <script>
+        const BOT_ID = "uz-lawyer";
+        const API = "";  // Same origin
+        let sessionId = localStorage.getItem(`chat_session_${BOT_ID}`) || crypto.randomUUID();
+        localStorage.setItem(`chat_session_${BOT_ID}`, sessionId);
+
+        function toggleChat() {
+            const w = document.getElementById('chat-widget');
+            w.style.display = w.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function addMessage(text, isUser) {
+            const div = document.createElement('div');
+            div.className = `${isUser ? 'message-user ml-auto' : 'message-bot'} p-3 max-w-[85%] text-sm`;
+            div.textContent = text;
+            document.getElementById('chat-messages').appendChild(div);
+            div.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('chat-input');
+            const text = input.value.trim();
+            if (!text) return;
+            input.value = '';
+            addMessage(text, true);
+
+            try {
+                const resp = await fetch(`${API}/api/chat`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        bot_id: BOT_ID,
+                        user_id: sessionId,
+                        message: text,
+                        channel: 'web',
+                    }),
+                });
+                const data = await resp.json();
+                addMessage(data.response || 'Error occurred.', false);
+            } catch (e) {
+                addMessage('Connection error. Please try again.', false);
+            }
+        }
+
+        function askQuestion(q) {
+            document.getElementById('chat-input').value = q;
+            toggleChat();
+            sendMessage();
+        }
+    </script>
+</body>
+</html>
