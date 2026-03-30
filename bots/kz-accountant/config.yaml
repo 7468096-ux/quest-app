@@ -1,0 +1,94 @@
+bot_id: "kz-accountant"
+name: "SalykBot"
+tagline: "Ваш бухгалтерский помощник с искусственным интеллектом для Казахстана"
+
+country:
+  code: "KZ"
+  name: "Казахстан"
+  language: "ru"
+  timezone: "Asia/Almaty"
+  currency: "KZT"
+
+niche:
+  type: "accountant"
+  category: "finance"
+  requires_disclaimer: true
+  disclaimer_type: "financial_not_advice"
+
+llm:
+  free_tier: "gemini-2.0-flash"
+  paid_tier: "gpt-4o-mini"
+  fallback: "ollama/llama3.2:3b"
+  max_context_tokens: 4096
+  temperature: 0.2
+  knowledge_base: "knowledge/"
+
+pricing:
+  free:
+    questions_per_day: 5
+    features:
+      - basic_answers
+  basic:
+    price_usd: 7.0
+    price_local: 3500
+    questions_per_day: 40
+    features:
+      - basic_answers
+      - chat_history
+      - tax_calculations
+  pro:
+    price_usd: 15.0
+    price_local: 7500
+    questions_per_day: unlimited
+    features:
+      - all
+      - document_upload
+      - priority
+      - api_access
+
+payment:
+  stripe: false
+  local_providers:
+    - kaspi_pay
+    - qiwi
+  telegram_stars: true
+
+telegram:
+  bot_token: "${KZ_ACCOUNTANT_BOT_TOKEN}"
+  bot_username: "SalykBot_kz"
+  welcome_message: |
+    🇰🇿 Сәлем! Мен SalykBot — Қазақстандағы салықтар мен бухгалтерия бойынша AI-көмекші.
+
+    Сізге көмектесе аламын:
+    📋 ИПН, КПН, НДС есептеу
+    💼 ЖК (ИП) тіркеу және есептілік
+    🏛 КГД, Eсep.kz, e-Salyq арқылы декларация тапсыру
+    👷 ОПВ, ОСМС, әлеуметтік аударымдар
+
+    💰 Маңызды: Мен бухгалтер емеспін. Жауаптарым ақпараттық сипатта болып, кәсіби есепші кеңесінің орнын баса алмайды.
+
+    Сұрақты жазыңыз! 👇
+
+website:
+  domain: "salykbot.kz"
+  template: "chat-landing"
+  primary_color: "#1a6b3a"
+  logo: "assets/salykbot-logo.svg"
+
+seo:
+  title: "SalykBot — AI-бухгалтер для Казахстана | Налоги, ИП, НДС"
+  description: "Бухгалтерские консультации с помощью ИИ. Налоги ИПН, КПН, НДС, ОПВ для Казахстана. Помощь с ИП, ТОО, декларациями КГД. Бесплатно."
+  keywords:
+    - бухгалтер казахстан онлайн
+    - налоги казахстан ипн кпн
+    - ип казахстан регистрация
+    - ндс казахстан
+    - декларация кгд казахстан
+
+marketing:
+  target_groups:
+    - "telegram: бухгалтеры казахстан"
+    - "telegram: ип малый бизнес казахстан"
+    - "facebook: предприниматели алматы астана"
+    - "instagram: бизнес казахстан"
+  launch_offer: "7 дней бесплатно тариф Basic"

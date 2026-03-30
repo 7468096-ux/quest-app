@@ -1,0 +1,60 @@
+faqs:
+  - question: "Fui demitido sem justa causa. Tenho direito ao seguro-desemprego?"
+    answer: "Sim, desde que você tenha trabalhado com carteira assinada por pelo menos 12 meses nos últimos 18 meses (1ª solicitação). O pedido deve ser feito entre 7 e 120 dias após a demissão, pelo aplicativo Carteira de Trabalho Digital ou nas agências do SINE/MTE. Você receberá de 3 a 5 parcelas dependendo do tempo trabalhado."
+
+  - question: "Meu patrão não assinou minha carteira de trabalho. O que posso fazer?"
+    answer: "Você pode ajuizar uma reclamação trabalhista na Vara do Trabalho da sua cidade para reconhecimento do vínculo empregatício. Reúna provas como: mensagens, fotos no local de trabalho, testemunhas, contracheques informais, ordens de serviço. O prazo para reclamar é de até 2 anos após o fim do vínculo, para créditos dos últimos 5 anos."
+
+  - question: "Quanto tempo tenho para entrar com uma ação trabalhista após ser demitido?"
+    answer: "Você tem 2 anos a partir da data de rescisão do contrato para ajuizar a reclamação trabalhista. Porém, apenas os créditos dos últimos 5 anos de contrato são exigíveis (Art. 7º, XXIX da Constituição Federal). Não deixe esse prazo vencer — procure um sindicato, advogado trabalhista ou a Defensoria Pública."
+
+  - question: "Posso comprar um imóvel com apenas contrato particular, sem escritura?"
+    answer: "Para imóveis acima de 30 salários mínimos, a lei exige escritura pública registrada em cartório (Art. 108 do Código Civil). Sem o registro no Cartório de Registro de Imóveis, a propriedade não se transfere legalmente. Contratos particulares têm validade entre as partes, mas não geram efeito perante terceiros. Risco elevado de golpes."
+
+  - question: "Meu vizinho está construindo e prejudicando minha casa. O que fazer?"
+    answer: "Primeiro, notifique o vizinho por escrito. Se não resolver, registre Boletim de Ocorrência e acione a Prefeitura (fiscalização de obras). Para indenização por danos já causados, ajuíze ação de nunciação de obra nova ou ação indenizatória no juízo cível. O prazo prescricional para reparação civil é de 3 anos (Art. 206 §3º, V CC)."
+
+  - question: "Comprei um produto pela internet e quero devolver. Tenho esse direito?"
+    answer: "Sim. Para compras feitas fora do estabelecimento comercial (internet, telefone, catálogo), você tem direito de arrependimento em até 7 dias corridos após o recebimento do produto, sem precisar dar nenhuma justificativa (Art. 49 do CDC). O fornecedor deve ressarcir integralmente o valor pago, incluindo frete."
+
+  - question: "Meu produto quebrou dentro da garantia. O que o fabricante é obrigado a fazer?"
+    answer: "O fornecedor tem até 30 dias para sanar o vício (Art. 18 CDC). Se não resolver nesse prazo, você pode exigir: substituição por produto equivalente, restituição integral do valor pago (com correção) ou abatimento proporcional do preço. Essas opções são à sua escolha, não do fornecedor."
+
+  - question: "Qual é o prazo para dar entrada no inventário após a morte de um familiar?"
+    answer: "O inventário deve ser aberto em até 60 dias após o falecimento (Art. 611 CPC). O prazo real varia por estado para fins de ITCMD (imposto sobre herança), podendo haver multas por atraso. O inventário pode ser extrajudicial (cartório) se todos os herdeiros forem maiores, capazes e concordes. Se houver testamento ou herdeiro menor, é obrigatório o inventário judicial."
+
+  - question: "Posso me divorciar sem advogado?"
+    answer: "Se o divórcio for consensual e não houver filhos menores ou incapazes, pode ser feito por escritura pública em cartório, com a presença de um advogado comum às partes ou advogados distintos (obrigatório o advogado). Sem acordo ou com filhos menores, o divórcio é judicial. O advogado é sempre exigido — se não tiver recursos, procure a Defensoria Pública."
+
+  - question: "Meu ex-cônjuge não paga pensão alimentícia. O que fazer?"
+    answer: "Você pode requerer a execução da pensão no processo já existente. O devedor pode ser: 1) ter o salário penhorado na fonte; 2) ter bens bloqueados (Bacen Jud); 3) ser preso por até 3 meses (prisão civil, Art. 528 CPC). A prisão é medida de extrema eficácia — a maioria dos devedores paga ao receber a intimação de cumprimento de sentença com pedido de prisão."
+
+  - question: "Sofri assédio moral no trabalho. Tenho direito a indenização?"
+    answer: "Sim. Assédio moral é conduta abusiva e repetitiva que cause constrangimento, humilhação ou dano psicológico ao trabalhador. Gera direito a indenização por danos morais e materiais. Reúna provas: e-mails, mensagens, testemunhas. Pode ajuizar reclamação trabalhista para indenização e, se desejar continuar no emprego, buscar resolução via RH ou sindicato."
+
+  - question: "Fui vítima de golpe na internet (produto não entregue). Como procedo?"
+    answer: "1) Registre Boletim de Ocorrência (pode ser online em muitos estados); 2) Se pagou por cartão de crédito, solicite chargeback à operadora em até 30-60 dias; 3) Registre queixa no consumidor.gov.br e PROCON; 4) Se foi Pix, registre o MED (Mecanismo Especial de Devolução) no app do seu banco em até 7 dias; 5) Para valores até 40 salários mínimos, entre com ação no Juizado Especial Cível."
+
+  - question: "Meu contrato de aluguel terminou e o locador não devolve o depósito caução. O que fazer?"
+    answer: "O locador tem até 30 dias após a devolução das chaves para restituir o depósito ou apresentar comprovação de descontos (Art. 38 Lei 8.245/91). Se não devolver sem justificativa, há direito ao valor em dobro. Você pode entrar com ação no Juizado Especial Cível (sem advogado para valores até 20 salários mínimos)."
+
+  - question: "Meu nome foi negativado indevidamente no SPC/Serasa. O que fazer?"
+    answer: "1) Peça cancelamento ao credor e ao órgão de proteção ao crédito; 2) Se a dívida não existe ou já foi paga, entre com ação judicial por danos morais — a negativação indevida gera dano moral presumido (in re ipsa), conforme Súmula 388 do STJ; 3) Enquanto o processo corre, peça tutela antecipada para exclusão imediata do nome."
+
+  - question: "Tenho direito à herança mesmo sendo filho não reconhecido?"
+    answer: "Sim. O filho não reconhecido tem direito à herança, mas precisa primeiro propor ação de reconhecimento de paternidade (pode incluir pedido de teste de DNA). Após o reconhecimento judicial, os direitos hereditários retroagem à data do nascimento. O prazo para a ação de investigação de paternidade é imprescritível para o filho (Súmula 149 STF)."
+
+  - question: "Posso fazer testamento sozinho, sem advogado?"
+    answer: "Sim. O testamento particular (Art. 1.876 CC) pode ser feito pelo próprio testador, de punho próprio, sem necessidade de advogado ou tabelião. Deve ser lido e assinado por pelo menos 3 testemunhas. Porém, o testamento público (em cartório) é mais seguro e difícil de ser contestado. Advogado é recomendado, mas não obrigatório."
+
+  - question: "Emprestei dinheiro a um amigo e ele não quer pagar. O que posso fazer?"
+    answer: "Se houver documento comprovando o empréstimo (contrato, transferência bancária com descrição, mensagens), você pode cobrar judicialmente. Para valores até 20 salários mínimos, use o Juizado Especial Cível sem advogado. Para valores maiores, contrate advogado e entre com ação monitória ou de cobrança. O prazo prescricional é de 3 anos (Art. 206 §3º, III CC)."
+
+  - question: "Fui preso e não fui informado dos meus direitos. O que fazer?"
+    answer: "Você tem direito constitucional à assistência jurídica imediata (Art. 5º, LXIII CF). Peça para falar com um advogado ou solicite a Defensoria Pública. Toda prisão em flagrante deve ser comunicada ao juiz em até 24 horas. A prisão sem flagrante requer mandado judicial. Audiência de custódia deve ocorrer em até 24h da prisão em flagrante."
+
+  - question: "Minha empresa faliu. Vou receber as verbas trabalhistas?"
+    answer: "Sim, créditos trabalhistas têm preferência na ordem de pagamento na falência (Art. 83 Lei 11.101/2005), até o limite de 150 salários mínimos por trabalhador (o excedente é quirografário). Você deve habilitar seu crédito no processo de falência, representado por advogado. O processo pode ser lento, mas os créditos trabalhistas têm prioridade sobre dívidas bancárias e fiscais."
+
+  - question: "Qual a diferença entre Juizado Especial Cível e Vara Cível comum?"
+    answer: "O Juizado Especial Cível (JEC - Lei 9.099/95) é mais ágil, informal e gratuito para causas até 40 salários mínimos. Até 20 SM, não precisa de advogado. O processo é mais rápido (audiência marcada em 30-60 dias). A Vara Cível comum é para causas mais complexas ou de maior valor, com procedimentos mais formais e prazos mais longos. Ambos são gratuitos para quem comprova hipossuficiência."

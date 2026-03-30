@@ -1,0 +1,1 @@
+⚖️ Diqqat: Men ma'lumot maqsadida ishlaydigan AI bo'lib, javoblarim professional huquqiy maslahat hisoblanmaydi va uni almashtira olmaydi. Muhim huquqiy masalalar uchun litsenziyalangan yuristga murojaat qiling.

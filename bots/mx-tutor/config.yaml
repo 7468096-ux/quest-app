@@ -1,0 +1,92 @@
+bot_id: mx-tutor
+name: ProfeIA
+tagline: "Tu tutor inteligente para COMIPEMS, EXANI y preparatoria en México"
+
+country:
+  code: MX
+  name: México
+  language: es-MX
+  timezone: America/Mexico_City
+  currency: MXN
+
+niche:
+  type: tutor
+  category: education
+  requires_disclaimer: false
+  disclaimer_type: null
+
+llm:
+  free_tier: gemini-2.0-flash
+  paid_tier: gpt-4o-mini
+  fallback: ollama/llama3.2:3b
+  max_context_tokens: 4096
+  temperature: 0.5
+  knowledge_base: knowledge/
+
+pricing:
+  free:
+    questions_per_day: 5
+    features:
+      - basic_answers
+  basic:
+    price_usd: 7.0
+    price_local: 120
+    questions_per_day: 50
+    features:
+      - basic_answers
+      - chat_history
+      - worked_examples
+      - practice_problems
+  pro:
+    price_usd: 15.0
+    price_local: 260
+    questions_per_day: unlimited
+    features:
+      - all
+      - document_upload
+      - priority
+
+payment:
+  stripe: true
+  local_providers:
+    - mercado_pago
+    - oxxo
+    - spei
+  telegram_stars: true
+
+telegram:
+  bot_token: "${MX_TUTOR_BOT_TOKEN}"
+  bot_username: ProfeIA_bot
+  welcome_message: |
+    🇲🇽 ¡Hola! Soy ProfeIA, tu tutor inteligente para México.
+    Te ayudo con materias de prepa, preparación para COMIPEMS,
+    EXANI-II (CENEVAL), admisión a la UNAM, IPN, UAM y más.
+
+    📚 Materias: Matemáticas, Español, Historia, Ciencias,
+    Geografía, Inglés, Física, Química, Biología
+
+    ¡Pregunta lo que necesites! 👇
+
+website:
+  domain: profeia.mx
+  template: chat-landing
+  primary_color: "#8e44ad"
+  logo: assets/profeia-logo.svg
+
+seo:
+  title: "ProfeIA - Tutor AI para COMIPEMS y Prepa | México"
+  description: "Prepárate para COMIPEMS, EXANI, UNAM y prepa con AI. Matemáticas, Español, Ciencias. Gratis para estudiantes de México."
+  keywords:
+    - tutor ia mexico
+    - preparacion comipems
+    - exani ceneval prep
+    - clases online gratis mexico
+    - matematicas prepa mexico
+
+marketing:
+  target_groups:
+    - "telegram: grupos de estudio México"
+    - "tiktok: contenido 'le pregunté a la IA...'"
+    - "facebook: grupos de padres y alumnos"
+    - "instagram: #comipems2026 #exani #prepa"
+  launch_offer: "7 días gratis del plan Basic para estudiantes"

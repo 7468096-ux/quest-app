@@ -1,0 +1,90 @@
+bot_id: id-lawyer
+name: HukumAI
+tagline: "Asisten hukum berbasis AI untuk Indonesia"
+
+country:
+  code: ID
+  name: Indonesia
+  language: id
+  timezone: Asia/Jakarta
+  currency: IDR
+
+niche:
+  type: lawyer
+  category: legal
+  requires_disclaimer: true
+  disclaimer_type: legal_not_advice
+
+llm:
+  free_tier: gemini-2.0-flash
+  paid_tier: gpt-4o-mini
+  fallback: ollama/llama3.2:3b
+  max_context_tokens: 4096
+  temperature: 0.3
+  knowledge_base: knowledge/
+
+pricing:
+  free:
+    questions_per_day: 3
+    features:
+      - basic_answers
+  basic:
+    price_usd: 7.0
+    price_local: 112000
+    questions_per_day: 30
+    features:
+      - basic_answers
+      - document_templates
+      - chat_history
+  pro:
+    price_usd: 15.0
+    price_local: 240000
+    questions_per_day: unlimited
+    features:
+      - all
+      - document_upload
+      - priority
+      - api_access
+
+payment:
+  stripe: false
+  local_providers:
+    - xendit
+    - midtrans
+    - gopay
+  telegram_stars: true
+
+telegram:
+  bot_token: "${ID_LAWYER_BOT_TOKEN}"
+  bot_username: HukumAI_bot
+  welcome_message: |
+    🇮🇩 Halo! Saya HukumAI, asisten hukum berbasis AI untuk warga Indonesia.
+    Saya bisa membantu pertanyaan tentang hukum perdata, hukum ketenagakerjaan,
+    perlindungan konsumen, hak properti, dan banyak lagi.
+
+    ⚖️ Penting: Saya bukan pengacara. Jawaban saya bersifat informatif
+    dan tidak menggantikan konsultasi hukum profesional.
+
+    Silakan ajukan pertanyaan Anda! 👇
+
+website:
+  domain: hukumai.id
+  template: chat-landing
+  primary_color: "#c0392b"
+  logo: assets/hukumai-logo.svg
+
+seo:
+  title: "HukumAI - Asisten Hukum AI | Konsultasi Hukum Online Indonesia"
+  description: "Konsultasi hukum online dengan AI. Jawaban tentang hukum perdata, ketenagakerjaan, konsumen. Gratis."
+  keywords:
+    - konsultasi hukum online
+    - pengacara ai indonesia
+    - hukum perdata indonesia
+    - bantuan hukum gratis
+
+marketing:
+  target_groups:
+    - "telegram: grup hukum indonesia"
+    - "facebook: komunitas hukum indonesia"
+    - "instagram: #bantuanhukum #hukumindonesia"
+  launch_offer: "7 hari gratis paket Basic"

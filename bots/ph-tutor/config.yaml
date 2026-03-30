@@ -1,0 +1,106 @@
+bot_id: "ph-tutor"
+name: "TutorPH"
+tagline: "Your AI Tutor for UPCAT, ACET & Philippine College Entrance Exams"
+
+country:
+  code: "PH"
+  name: "Philippines"
+  language: "en-PH"
+  timezone: "Asia/Manila"
+  currency: "PHP"
+
+niche:
+  type: "tutor"
+  category: "education"
+  requires_disclaimer: false
+  disclaimer_type: null
+
+llm:
+  free_tier: "gemini-2.0-flash"
+  paid_tier: "gpt-4o-mini"
+  fallback: "ollama/llama3.2:3b"
+  max_context_tokens: 4096
+  temperature: 0.5
+  knowledge_base: "knowledge/"
+
+pricing:
+  free:
+    questions_per_day: 5
+    features:
+      - basic_answers
+  basic:
+    price_usd: 5.0
+    price_local: 280
+    questions_per_day: 50
+    features:
+      - basic_answers
+      - chat_history
+      - worked_examples
+      - practice_problems
+  pro:
+    price_usd: 10.0
+    price_local: 550
+    questions_per_day: unlimited
+    features:
+      - all
+      - document_upload
+      - priority
+      - exam_simulations
+
+payment:
+  stripe: false
+  local_providers:
+    - gcash
+    - maya
+  telegram_stars: true
+
+telegram:
+  bot_token: "${PH_TUTOR_BOT_TOKEN}"
+  bot_username: "TutorPH_bot"
+  welcome_message: |
+    🇵🇭 Hello! I'm TutorPH — your AI-powered college entrance exam reviewer!
+
+    I can help you prepare for:
+    🎓 UPCAT (University of the Philippines)
+    🔵 ACET (Ateneo College Entrance Test)
+    🟢 DLSUCET (De La Salle)
+    🟡 USTET (University of Santo Tomas)
+    📚 Other Philippine college entrance exams
+
+    I cover all major subjects:
+    📖 English — Reading Comprehension, Grammar, Vocabulary, Critical Thinking
+    🔢 Mathematics — Algebra, Geometry, Statistics, Problem Solving
+    🔬 Science — Biology, Chemistry, Physics, Earth Science
+    🗣 Filipino — Gramatika, Pagbabasa, Talasalitaan
+
+    Let's get you into your dream school! Ask me anything 👇
+
+website:
+  domain: "smarthelp.ai/ph/tutor"
+  template: "chat-landing"
+  primary_color: "#0038A8"
+  secondary_color: "#FCD116"
+  logo: "assets/tutorph-logo.svg"
+
+seo:
+  title: "TutorPH — AI Reviewer for UPCAT, ACET & College Entrance Exams Philippines"
+  description: "Free AI tutor for Philippine college entrance exams. UPCAT, ACET, DLSUCET, USTET reviewer covering English, Math, Science, and Filipino. Practice problems and explanations."
+  keywords:
+    - upcat reviewer
+    - acet reviewer
+    - college entrance exam philippines
+    - upcat math reviewer
+    - upcat english reviewer
+    - dlsucet reviewer
+    - ustet reviewer
+    - ai tutor philippines
+    - college entrance exam reviewer ph
+
+marketing:
+  target_groups:
+    - "telegram: UPCAT 2026, ACET reviewees, PH students groups"
+    - "facebook: UPCAT Reviewees, College Admissions Philippines"
+    - "reddit: r/Philippines, r/StudyPhilippines"
+    - "tiktok: 'I asked AI to solve an UPCAT problem...'"
+    - "instagram: #UPCAT2026 #ACETreview #CollegeEntranceExam"
+  launch_offer: "7 days free Basic plan — no credit card needed"

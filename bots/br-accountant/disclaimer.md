@@ -1,0 +1,1 @@
+💰 Aviso: Sou uma IA informativa sobre contabilidade e impostos. Minhas respostas são educativas e NÃO substituem serviços de um contador registrado no CRC. Para declarações oficiais, contrate um profissional habilitado.

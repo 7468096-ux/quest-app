@@ -1,0 +1,87 @@
+bot_id: "kz-lawyer"
+name: "ZakonBot"
+tagline: "Ваш юридический помощник с искусственным интеллектом для Казахстана"
+
+country:
+  code: "KZ"
+  name: "Казахстан"
+  language: "ru"
+  timezone: "Asia/Almaty"
+  currency: "KZT"
+
+niche:
+  type: "lawyer"
+  category: "legal"
+  requires_disclaimer: true
+  disclaimer_type: "legal_not_advice"
+
+llm:
+  free_tier: "gemini-2.0-flash"
+  paid_tier: "gpt-4o-mini"
+  fallback: "ollama/llama3.2:3b"
+  max_context_tokens: 4096
+  temperature: 0.3
+  knowledge_base: "knowledge/"
+
+pricing:
+  free:
+    questions_per_day: 3
+    features:
+      - basic_answers
+  basic:
+    price_usd: 7.0
+    price_local: 3500
+    questions_per_day: 30
+    features:
+      - basic_answers
+      - document_templates
+      - chat_history
+  pro:
+    price_usd: 15.0
+    price_local: 7500
+    questions_per_day: unlimited
+    features:
+      - all
+      - document_upload
+      - priority
+      - api_access
+
+payment:
+  stripe: false
+  local_providers:
+    - kaspi_pay
+    - qiwi
+  telegram_stars: true
+
+telegram:
+  bot_token: "${KZ_LAWYER_BOT_TOKEN}"
+  bot_username: "ZakonBot_kz"
+  welcome_message: |
+    🇰🇿 Сәлем! Мен ZakonBot — Қазақстан заңнамасы бойынша AI-заңгер.
+    Азаматтық, еңбек, тұтынушы құқықтары және т.б. мәселелер бойынша сұрақтарыңызға жауап беремін.
+
+    ⚖️ Маңызды: Мен заңгер емеспін. Жауаптарым ақпараттық сипатта болып, кәсіби заңгерлік кеңестің орнын баса алмайды.
+
+    Сұрақты жазыңыз! 👇
+
+website:
+  domain: "zakonbot.kz"
+  template: "chat-landing"
+  primary_color: "#0b5394"
+  logo: "assets/zakonbot-logo.svg"
+
+seo:
+  title: "ZakonBot — AI-юрист для Казахстана | Бесплатные юридические консультации"
+  description: "Получите юридическую консультацию с помощью искусственного интеллекта. Гражданское право, трудовые споры, права потребителей в Казахстане. Бесплатно."
+  keywords:
+    - юрист казахстан онлайн
+    - юридическая консультация казахстан
+    - ai юрист казахстан
+    - трудовые споры казахстан
+
+marketing:
+  target_groups:
+    - "telegram: юридические группы казахстан"
+    - "facebook: предприниматели казахстан"
+    - "reddit: r/Kazakhstan"
+  launch_offer: "7 дней бесплатно тариф Basic"

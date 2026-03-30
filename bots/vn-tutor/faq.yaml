@@ -1,0 +1,122 @@
+faq:
+  - question: "Kỳ thi THPT Quốc gia gồm những môn nào?"
+    answer: |
+      🎓 Kỳ thi Tốt nghiệp THPT Quốc gia từ 2025 gồm:
+
+      **4 môn thi (thay đổi theo lộ trình mới):**
+      - 📐 Toán (bắt buộc)
+      - 📝 Ngữ văn (bắt buộc)
+      - 🌍 Ngoại ngữ — chủ yếu Tiếng Anh (bắt buộc)
+      - 📚 Môn lựa chọn: 1 trong 2 tổ hợp:
+        * KHTN: Vật lý + Hóa học + Sinh học
+        * KHXH: Lịch sử + Địa lý + GDKT&PL
+
+      ⏰ Thời gian thi: tháng 6 hàng năm (2 ngày thi chính thức)
+      📊 Thang điểm: 10 điểm mỗi môn
+
+  - question: "Điểm xét tốt nghiệp THPT được tính như thế nào?"
+    answer: |
+      📊 Công thức tính điểm xét tốt nghiệp THPT:
+
+      **Điểm xét tốt nghiệp = (Điểm TB các môn thi × 70%) + (Điểm TB lớp 12 × 30%)**
+
+      Ví dụ:
+      - Điểm TB 4 môn thi: 7.5 → 7.5 × 70% = 5.25
+      - Điểm TB lớp 12: 8.0 → 8.0 × 30% = 2.40
+      - **Tổng: 5.25 + 2.40 = 7.65 điểm**
+
+      ✅ **Điều kiện đỗ tốt nghiệp:** Điểm xét tốt nghiệp ≥ 5.0 và không có môn nào < 1.0
+
+      💡 Điểm thi cũng dùng để xét tuyển đại học theo phương thức điểm thi THPT!
+
+  - question: "Làm thế nào để ôn Toán THPT hiệu quả?"
+    answer: |
+      📐 Chiến lược ôn Toán THPT Quốc gia:
+
+      **Các dạng bài chính (theo cấu trúc đề 2024-2025):**
+      1. Hàm số & đồ thị — chiếm ~15-20% đề (QUAN TRỌNG NHẤT)
+      2. Mũ & logarit — ~10%
+      3. Nguyên hàm, tích phân — ~15%
+      4. Số phức — ~5-10%
+      5. Hình học không gian — ~15%
+      6. Tổ hợp, xác suất — ~10%
+      7. Hình giải tích Oxyz — ~10%
+      8. Lượng giác, hàm lượng giác — ~10%
+
+      **Kế hoạch ôn tập:**
+      - Tháng 9–12 lớp 12: ôn lý thuyết từng chương
+      - Tháng 1–3: làm đề thi minh họa của Bộ GD&ĐT
+      - Tháng 4–5: giải đề thi các năm 2020-2024 (có đáp án)
+      - Tháng 6 trước thi: xem lại công thức, dạng bài hay gặp
+
+      🎯 Mục tiêu 7-8 điểm: tập trung câu 1-40 (phần dễ đến trung bình)
+
+  - question: "Cấu trúc đề thi Tiếng Anh THPT như thế nào?"
+    answer: |
+      🌍 Cấu trúc đề Tiếng Anh THPT Quốc gia (50 câu / 60 phút):
+
+      | Phần | Số câu | Nội dung |
+      |------|--------|---------|
+      | Ngữ âm | 2 | Trọng âm, phát âm |
+      | Ngữ pháp & Từ vựng | 15-17 | Thì, câu điều kiện, từ nối, phrasal verbs |
+      | Đọc hiểu 1 | 8 | Đoạn văn điền từ (cloze test) |
+      | Đọc hiểu 2 | 8 | Đoạn văn ngắn |
+      | Đọc hiểu 3 | 8 | Đoạn văn dài |
+      | Viết câu | 8-10 | Kết hợp câu, viết lại câu, đoạn văn |
+
+      **Điểm mấu chốt:**
+      - Ngữ pháp: thì động từ (hiện tại hoàn thành, bị động, câu điều kiện loại 2/3)
+      - Từ vựng: học theo chủ đề (môi trường, công nghệ, sức khỏe, giáo dục)
+      - Đọc hiểu: luyện kỹ năng skimming & scanning
+      - Viết lại câu: nắm vững các cấu trúc đặc biệt (wish, if only, although...)
+
+  - question: "Học Vật lý THPT cần nắm công thức nào quan trọng nhất?"
+    answer: |
+      ⚡ Công thức Vật lý quan trọng nhất cho THPT Quốc gia:
+
+      **1. Dao động điều hòa:**
+      - x = A·cos(ωt + φ) ; v = -Aω·sin(ωt + φ)
+      - T = 2π√(m/k) [lò xo] ; T = 2π√(L/g) [con lắc]
+      - E = ½kA² = ½mω²A²
+
+      **2. Sóng cơ & Âm thanh:**
+      - v = λ·f ; λ = v/f
+      - Giao thoa sóng: d₂ - d₁ = kλ (cực đại) ; d₂ - d₁ = (2k+1)λ/2 (cực tiểu)
+
+      **3. Điện xoay chiều:**
+      - Z = √(R² + (ZL - ZC)²) ; I = U/Z
+      - cosφ = R/Z ; P = UIcosφ = I²R
+      - Cộng hưởng: ZL = ZC → f = 1/(2π√LC)
+
+      **4. Quang học:**
+      - Gương cầu: 1/f = 1/d + 1/d' ; k = -d'/d
+      - Thấu kính: 1/f = 1/d + 1/d' ; n₁sinθ₁ = n₂sinθ₂
+
+      **5. Lượng tử:**
+      - E = hf = hc/λ ; A = hf₀ (công thoát)
+      - Phóng xạ: N = N₀·2^(-t/T₁/₂) ; A = A₀·e^(-λt)
+
+      💡 Tip: Làm đề thi 2022-2024 để thấy công thức nào hay xuất hiện!
+
+  - question: "GiaSuAI có thể giúp gì cho kỳ thi đại học?"
+    answer: |
+      🎓 GiaSuAI hỗ trợ toàn diện cho lộ trình vào đại học:
+
+      **1. Ôn thi Tốt nghiệp THPT Quốc gia:**
+      ✅ Giải thích lý thuyết theo chương trình SGK lớp 12
+      ✅ Hướng dẫn giải bài tập từng bước
+      ✅ Phân tích đề thi các năm 2020-2024
+      ✅ Chỉ ra dạng bài hay gặp + bẫy thường mắc
+
+      **2. Xét tuyển đại học:**
+      ✅ Tư vấn tổ hợp môn xét tuyển
+      ✅ Thông tin điểm chuẩn các trường (2022-2024)
+      ✅ Các phương thức xét tuyển: điểm thi, học bạ, đánh giá năng lực
+      ✅ Kỳ thi Đánh giá Năng lực (ĐGNL) ĐHQG HN & HCM
+
+      **3. Luyện thi riêng:**
+      ✅ Ra đề tự kiểm tra theo từng dạng bài
+      ✅ Chấm và nhận xét bài làm
+      ✅ Lập kế hoạch ôn thi cá nhân hóa
+
+      💬 Hỏi mình bất kỳ câu nào để bắt đầu ôn tập nhé!

@@ -1,0 +1,125 @@
+faqs:
+  - question: "Apa perbedaan flu biasa dengan COVID-19?"
+    answer: |
+      🤧 **Flu Biasa vs COVID-19**
+
+      | Gejala | Flu Biasa | COVID-19 |
+      |--------|-----------|----------|
+      | Demam | Sedang (38°C) | Bisa tinggi (38-40°C) |
+      | Batuk | Kering, ringan | Kering, persistent |
+      | Pilek | Umum | Jarang |
+      | Sakit tenggorokan | Umum | Ada |
+      | Hilang penciuman | Sangat jarang | KHAS COVID |
+      | Sesak nafas | Jarang | Bisa ada |
+      | Kelelahan | Ringan-sedang | Sering berat |
+      | Diare | Jarang | Kadang ada |
+
+      **Rekomendasi:**
+      - Istirahat, minum air putih banyak, makan bergizi
+      - Jika demam >3 hari, sesak nafas, atau saturasi O₂ <95% → ke dokter
+      - Test antigen/PCR jika curiga COVID
+      - Isolasi mandiri jika positif COVID
+
+  - question: "Berapa tekanan darah normal?"
+    answer: |
+      💊 **Tekanan Darah Normal**
+
+      | Kategori | Sistolik | Diastolik |
+      |----------|----------|-----------|
+      | Normal | <120 mmHg | <80 mmHg |
+      | Pra-hipertensi | 120-129 | <80 |
+      | Hipertensi Tahap 1 | 130-139 | 80-89 |
+      | Hipertensi Tahap 2 | ≥140 | ≥90 |
+      | Krisis hipertensi | >180 | >120 → DARURAT |
+
+      **Tips menjaga tekanan darah:**
+      - Kurangi garam (maks 5g/hari)
+      - Olahraga teratur 30 mnt/hari
+      - Jaga berat badan ideal
+      - Hindari stres berlebih
+      - Kurangi alkohol dan rokok
+
+      Jika >180/120 mmHg disertai sakit kepala hebat, pandangan kabur, atau nyeri dada → SEGERA ke IGD!
+
+  - question: "Apa tanda-tanda diabetes dan bagaimana mengatasinya?"
+    answer: |
+      🩸 **Gejala Diabetes**
+
+      **Gejala 3P:**
+      - **Poliuria** — sering buang air kecil (terutama malam)
+      - **Polidipsia** — sering haus berlebihan
+      - **Polifagia** — sering lapar meski sudah makan
+
+      **Gejala lain:** penurunan berat badan tiba-tiba, luka sulit sembuh, pandangan kabur, kesemutan di tangan/kaki, sering infeksi
+
+      **Faktor risiko:** obesitas, riwayat keluarga, usia >45 tahun, kurang gerak, hipertensi
+
+      **Langkah jika dicurigai diabetes:**
+      1. Periksa gula darah puasa di Puskesmas (gratis dengan BPJS)
+      2. Normal: <100 mg/dL; Prediabetes: 100-125; Diabetes: ≥126
+      3. Jika terdiagnosis → konsultasi dokter untuk pengobatan + pola makan
+
+  - question: "Bagaimana cara menggunakan BPJS untuk berobat?"
+    answer: |
+      💳 **Cara Berobat dengan BPJS Kesehatan**
+
+      **Alur Berobat (Sistem Rujukan Berjenjang):**
+      1. **Fasilitas Kesehatan Tingkat I (FKTP):** Puskesmas atau klinik yang terdaftar di kartu BPJS Anda
+         - Bawa: KTP + kartu BPJS (atau NIK saja)
+         - GRATIS untuk peserta aktif
+      2. **Rujukan ke RS:** jika dokter FKTP merujuk
+         - RS tipe B/C/D sesuai antrian
+         - Bawa surat rujukan + kartu BPJS + KTP
+
+      **Cek status BPJS:**
+      - Aplikasi Mobile JKN
+      - WhatsApp: 0811 8 165 165
+      - Website: bpjs-kesehatan.go.id
+
+      **Jika kartu hilang:** lapor ke kantor BPJS atau update di app Mobile JKN
+
+  - question: "Bagaimana mengatasi maag/asam lambung?"
+    answer: |
+      🫁 **Tips Mengatasi Maag/GERD**
+
+      **Gejala maag:** nyeri perut bagian atas, mual, kembung, perih, rasa asam di mulut
+
+      **Pertolongan pertama:**
+      - Makan sedikit-sedikit tapi sering (4-5 kali/hari)
+      - Hindari makanan pedas, asam, berlemak, kafein
+      - Antasida (obat bebas): Mylanta, Promag — menetralkan asam
+      - Minum air hangat
+
+      **Gaya hidup:**
+      - Jangan berbaring langsung setelah makan (tunggu 2-3 jam)
+      - Tinggikan kepala tempat tidur 15-20 cm
+      - Hindari stres
+      - Hentikan merokok
+
+      **Ke dokter jika:**
+      - Nyeri tidak hilang >2 minggu
+      - BAB hitam/berdarah (kemungkinan tukak lambung)
+      - Penurunan berat badan drastis
+      - Sulit menelan
+
+  - question: "Obat demam apa yang aman untuk anak-anak?"
+    answer: |
+      🌡️ **Obat Demam untuk Anak**
+
+      **Obat yang aman:**
+      - **Paracetamol (Parasetamol):** 10-15 mg/kg berat badan, tiap 4-6 jam
+        - Tersedia sirup, suppositoria, tablet
+        - Merek: Panadol, Tempra, Sanmol, generik
+      - **Ibuprofen:** untuk anak >6 bulan, 5-10 mg/kg, tiap 6-8 jam
+
+      **JANGAN berikan:**
+      - Aspirin pada anak <18 tahun (risiko sindrom Reye)
+      - Obat dewasa tanpa resep dokter
+
+      **Kapan ke dokter:**
+      - Bayi <3 bulan dengan demam apapun → segera ke dokter
+      - Demam >39°C tidak turun dengan obat
+      - Demam >3 hari
+      - Disertai ruam, kejang, atau kesadaran menurun
+
+      **Tips tambahan:** kompres hangat (bukan dingin) di dahi/ketiak, banyak minum cairan

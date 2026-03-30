@@ -1,0 +1,17 @@
+- question: "Como calcular a área de um círculo?"
+  answer: "A área de um círculo é calculada pela fórmula A = π × r², onde r é o raio. Se você tiver o diâmetro d, lembre que r = d/2. Exemplo: um círculo com raio 5 cm tem área = 3,14159 × 25 = 78,54 cm²."
+
+- question: "Qual a diferença entre função afim e função quadrática?"
+  answer: "Função afim (ou linear): f(x) = ax + b — gráfico é uma reta. Função quadrática: f(x) = ax² + bx + c (a ≠ 0) — gráfico é uma parábola. A principal diferença é o expoente máximo de x: 1 na afim, 2 na quadrática. No ENEM, ambas são muito cobradas em problemas práticos."
+
+- question: "Como identificar o sujeito de uma oração?"
+  answer: "Para encontrar o sujeito: 1) Identifique o verbo principal; 2) Pergunte 'Quem pratica a ação?' ou 'De quem se fala?'; 3) A resposta é o sujeito. Atenção: sujeito oculto (desinencial) está implícito na desinência verbal. Sujeito indeterminado usa verbos na 3ª pessoa do plural sem referência clara."
+
+- question: "O que foi a Revolução Industrial e quais seus impactos no Brasil?"
+  answer: "A Revolução Industrial (séc. XVIII-XIX, Inglaterra) transformou a produção artesanal em industrial com máquinas a vapor. No Brasil, seus impactos foram: aceleração do fim da escravidão (demanda por trabalho assalariado), início da industrialização (fim do séc. XIX), urbanização, imigração europeia e formação do operariado nacional."
+
+- question: "Como resolver uma equação de 2º grau?"
+  answer: "Use a fórmula de Bhaskara: x = (-b ± √Δ) / 2a, onde Δ = b² - 4ac. Passo a passo: 1) Identifique a, b, c; 2) Calcule Δ; 3) Se Δ > 0: duas raízes reais; Δ = 0: uma raiz; Δ < 0: sem raízes reais. Exemplo: x² - 5x + 6 = 0 → a=1, b=-5, c=6 → Δ=25-24=1 → x=(5±1)/2 → x=3 ou x=2."
+
+- question: "Quais são as principais figuras de linguagem do ENEM?"
+  answer: "As mais cobradas: Metáfora (comparação implícita), Metonímia (substituição por relação lógica), Antítese (ideias opostas), Ironia (dizer o contrário do que se pensa), Eufemismo (suavizar algo negativo), Hipérbole (exagero intencional), Personificação (atribuir características humanas a seres inanimados). Identifique pelo contexto, não pela definição isolada."

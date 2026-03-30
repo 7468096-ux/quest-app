@@ -1,0 +1,134 @@
+# FAQ — AbogadoIA (México)
+# Preguntas frecuentes con respuestas directas (sin LLM)
+# El bot responde estas preguntas instantáneamente
+
+faqs:
+  - question: "¿Cuánto tiempo tengo para demandar por despido injustificado?"
+    keywords: ["despido", "demandar", "plazo", "tiempo para demandar", "prescripción laboral"]
+    answer: |
+      ⏰ **Tienes 2 años** para presentar una demanda por despido injustificado ante el Tribunal Laboral.
+      
+      📌 El plazo cuenta desde el día siguiente a tu despido.
+      
+      ✅ **Qué hacer:**
+      1. Reúne evidencias: contrato, recibos de nómina, comunicaciones
+      2. Ve al IMSS para verificar tus semanas cotizadas
+      3. Presenta tu demanda ante el **Tribunal Federal de Conciliación y Arbitraje** (si es empresa federal) o el **Tribunal Local** de tu estado
+      4. Puedes ir con la **Procuraduría Federal de la Defensa del Trabajo (PROFEDET)** — es gratuita
+      
+      📖 *Base legal: Art. 517, Ley Federal del Trabajo*
+      
+      ⚖️ *Aviso: Consulta a un abogado para tu caso específico.*
+
+  - question: "¿Me pueden retener el finiquito?"
+    keywords: ["finiquito", "liquidación", "retener finiquito", "no me pagan finiquito"]
+    answer: |
+      🚫 **No, no pueden retener tu finiquito** sin causa justificada por ley.
+      
+      📌 El finiquito debe pagarse en un plazo razonable (generalmente dentro de los siguientes días hábiles al despido o renuncia).
+      
+      ✅ **Si no te lo pagan:**
+      1. Solicítalo por escrito a tu empleador (guarda copia)
+      2. Si no responden, acude a la **PROFEDET** (gratuita): profedet.gob.mx
+      3. Presenta queja ante la **Secretaría del Trabajo y Previsión Social (STPS)**
+      4. Puedes demandar ante el Tribunal Laboral
+      
+      📖 *Base legal: Arts. 53, 89 y 162, Ley Federal del Trabajo*
+      
+      ⚖️ *Aviso: Consulta a un abogado para tu caso específico.*
+
+  - question: "¿Cuántos días de vacaciones me corresponden?"
+    keywords: ["vacaciones", "días de vacaciones", "cuántos días", "vacaciones por ley"]
+    answer: |
+      🏖️ **Días de vacaciones por año trabajado** (Reforma 2022):
+      
+      | Años trabajados | Días mínimos |
+      |-----------------|--------------|
+      | 1 año           | 12 días      |
+      | 2 años          | 14 días      |
+      | 3 años          | 16 días      |
+      | 4 años          | 18 días      |
+      | 5-9 años        | 20 días      |
+      | 10-14 años      | 22 días      |
+      | 15-19 años      | 24 días      |
+      | 20-24 años      | 26 días      |
+      | 25+ años        | 28 días (+2 por cada 5 años) |
+      
+      ➕ También tienes derecho a **prima vacacional del 25%** sobre el salario durante vacaciones.
+      
+      📖 *Base legal: Art. 76 y 80, Ley Federal del Trabajo (reforma 2022)*
+      
+      ⚖️ *Aviso: Consulta a un abogado para tu caso específico.*
+
+  - question: "¿Qué hago si un producto me salió defectuoso?"
+    keywords: ["producto defectuoso", "garantía", "PROFECO", "devolución", "cambio", "reembolso"]
+    answer: |
+      🛒 **Tienes derechos como consumidor en México:**
+      
+      ✅ **Opciones disponibles (elige una):**
+      - Reposición del producto
+      - Reparación gratuita
+      - Devolución del dinero
+      - Reducción del precio
+      
+      📌 **Plazo para reclamar:** Dentro de la **garantía del producto** (mínimo 90 días para bienes de consumo frecuente, más para electrónicos).
+      
+      ✅ **Cómo proceder:**
+      1. Guarda ticket, factura o comprobante de compra
+      2. Ve directamente a la tienda y solicita garantía
+      3. Si te niegan: llama a **PROFECO al 800 468 8722** (gratuito)
+      4. Presenta queja en **profeco.gob.mx** — tiene conciliación gratuita
+      
+      📖 *Base legal: Arts. 77-92, Ley Federal de Protección al Consumidor (LFPC)*
+      
+      ⚖️ *Aviso: Consulta a un abogado para tu caso específico.*
+
+  - question: "¿Puedo ser detenido sin una orden de aprehensión?"
+    keywords: ["detención", "detenido", "orden de aprehensión", "flagrancia", "derechos detenido", "arrested"]
+    answer: |
+      🚨 **Solo en casos específicos puedes ser detenido sin orden:**
+      
+      1. **Flagrancia**: te atrapa en el momento del delito o inmediatamente después
+      2. **Caso urgente**: delito grave + riesgo de fuga (autoriza el MP, no juez)
+      
+      ✅ **Tus derechos como detenido (Art. 20 Constitucional):**
+      - No declarar contra ti mismo
+      - Conocer los hechos que se te imputan
+      - Tener un abogado desde el momento de la detención
+      - Si no tienes abogado, el Estado debe darte uno (defensor de oficio)
+      - No ser torturado, intimidado ni incomunicado
+      - Ser puesto a disposición de un juez dentro de **48 horas** (o 96 en delincuencia organizada)
+      
+      📌 **En caso de detención arbitraria:** Pide nombre y placa del agente. Contacta a la **Comisión Nacional de Derechos Humanos (CNDH): 800 715 2000**
+      
+      📖 *Base legal: Arts. 16, 20 Constitución Política de los Estados Unidos Mexicanos*
+      
+      ⚖️ *Aviso: Consulta a un abogado de inmediato en caso de detención.*
+
+  - question: "¿Cómo tramito el divorcio en México?"
+    keywords: ["divorcio", "separación", "matrimonio", "tramitar divorcio", "divorcio incausado"]
+    answer: |
+      💔 **Tipos de divorcio en México:**
+      
+      **1. Divorcio Incausado (sin causa)** — el más común y rápido
+      - Cualquiera de los dos puede solicitarlo sin dar razones
+      - Disponible en todos los estados
+      - Tiempo promedio: 1-3 meses
+      
+      **2. Divorcio Voluntario (de mutuo acuerdo)**
+      - Ambos deben estar de acuerdo en todos los términos
+      - Requiere convenio sobre bienes, hijos, pensión
+      - Puede hacerse ante **notario** (más rápido) o juzgado
+      
+      ✅ **Pasos generales:**
+      1. Contratar abogado o acudir al Juzgado Familiar
+      2. Presentar demanda con acta de matrimonio y CURP
+      3. Audiencia de divorcio
+      4. Resolución del juez
+      5. Inscribir en Registro Civil
+      
+      📌 **Si hay hijos:** el juzgado decidirá sobre custodia y pensión alimenticia.
+      
+      📖 *Base legal: Código Civil Federal, Art. 266 y ss. (y códigos civiles estatales)*
+      
+      ⚖️ *Aviso: El derecho familiar varía por estado. Consulta a un abogado local.*

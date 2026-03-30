@@ -1,0 +1,92 @@
+bot_id: id-tutor
+name: BelajarAI
+tagline: "Guru AI untuk UTBK, UN, dan pelajaran sekolah Indonesia"
+
+country:
+  code: ID
+  name: Indonesia
+  language: id
+  timezone: Asia/Jakarta
+  currency: IDR
+
+niche:
+  type: tutor
+  category: education
+  requires_disclaimer: false
+  disclaimer_type: null
+
+llm:
+  free_tier: gemini-2.0-flash
+  paid_tier: gpt-4o-mini
+  fallback: ollama/llama3.2:3b
+  max_context_tokens: 4096
+  temperature: 0.5
+  knowledge_base: knowledge/
+
+pricing:
+  free:
+    questions_per_day: 5
+    features:
+      - basic_answers
+  basic:
+    price_usd: 5.0
+    price_local: 80000
+    questions_per_day: 50
+    features:
+      - basic_answers
+      - chat_history
+      - worked_examples
+      - practice_problems
+  pro:
+    price_usd: 12.0
+    price_local: 190000
+    questions_per_day: unlimited
+    features:
+      - all
+      - document_upload
+      - priority
+
+payment:
+  stripe: false
+  local_providers:
+    - xendit
+    - midtrans
+    - gopay
+    - dana
+  telegram_stars: true
+
+telegram:
+  bot_token: "${ID_TUTOR_BOT_TOKEN}"
+  bot_username: BelajarAI_bot
+  welcome_message: |
+    🇮🇩 Halo! Saya BelajarAI — guru AI untuk siswa Indonesia!
+    Saya bisa membantu pelajaran SMA, persiapan UTBK/SNBT,
+    UN, dan ujian masuk perguruan tinggi favorit kamu.
+
+    📚 Mata pelajaran: Matematika, Fisika, Kimia, Biologi,
+    Bahasa Indonesia, Bahasa Inggris, Sejarah, Ekonomi, Geografi
+
+    Tanya apa saja! 👇
+
+website:
+  domain: belajarai.id
+  template: chat-landing
+  primary_color: "#27ae60"
+  logo: assets/belajarai-logo.svg
+
+seo:
+  title: "BelajarAI - Guru AI untuk UTBK dan Sekolah | Indonesia"
+  description: "Belajar dengan AI untuk UTBK, SNBT, UN. Matematika, IPA, IPS, Bahasa. Gratis untuk siswa Indonesia."
+  keywords:
+    - belajar utbk ai
+    - guru ai indonesia
+    - persiapan snbt online
+    - les online gratis
+    - belajar matematika ai
+
+marketing:
+  target_groups:
+    - "telegram: grup belajar siswa Indonesia"
+    - "instagram: #utbk2026 #snbt2026 #belajar"
+    - "tiktok: konten 'soal UTBK dijawab AI'"
+  launch_offer: "7 hari gratis paket Basic untuk siswa"

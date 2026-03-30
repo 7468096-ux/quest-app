@@ -1,0 +1,17 @@
+- question: "Ishdan bo'shatilganda qanday to'lovlar olish kerak?"
+  answer: "Ish beruvchi siz bilan kelishuvni tugatganda quyidagilarni to'lashi shart: o'rta oylik maosh asosida hisoblab qolgan ish haqi, foydalanilmagan ta'til uchun kompensatsiya va, agar sababsiz bo'shatilsangiz, ikki oylik o'rtacha ish haqi miqdorida nafaqa."
+
+- question: "Ijara shartnomasini qanday tuzish kerak?"
+  answer: "Ijara shartnomasi yozma shaklda tuzilishi va notarial tasdiqlanishi tavsiya etiladi. Shartnomada ijara muddati, to'lov miqdori va tartibi, mulkni qaytarish shartlari aniq ko'rsatilishi kerak. 1 yildan ortiq ijara uchun davlat ro'yxatidan o'tkazish majburiy."
+
+- question: "Qarz qaytarilmasa nima qilish kerak?"
+  answer: "Avval yozma da'vonamani yuboring. Javob bo'lmasa, tinchlik sudi orqali da'vo arizasi bering (100 ta eng kam ish haqigacha bo'lgan miqdorlar uchun). Katta summalar uchun iqtisodiy sud yoki fuqarolik sudiga murojaat qiling."
+
+- question: "Uy-joy sotib olishda qanday hujjatlar kerak?"
+  answer: "Sotuvchi: mulkchilik huquqi haqidagi guvohnoma, texnik pasport, er uchastkasi hujjatlari, oilaviy holat haqida ma'lumotnoma, kommunal xizmatlar bo'yicha qarzlar yo'qligi haqida ma'lumotnoma. Xaridor: pasport, STIR, oilaviy holat haqida ma'lumotnoma."
+
+- question: "Iste'mol tovarlari uchun kafolat muddati qancha?"
+  answer: "O'zbekiston qonunchiligiga ko'ra, ishlab chiqaruvchi belgilagan kafolat muddati davomida tovar almashtirilib berilishi yoki ta'mirlanishi shart. Kafolat muddati ko'rsatilmagan bo'lsa, 6 oy amal qiladi. Oziq-ovqat mahsulotlari uchun sanitar me'yorlar asosida yaroqlilik muddati belgilanadi."
+
+- question: "Baxtsiz hodisa sodir bo'lganda ish beruvchi qanday javobgar?"
+  answer: "Ish beruvchi mehnat shikastlanishi yuz berganda: tibbiy xarajatlarni to'lash, vaqtincha mehnat qobiliyatini yo'qotish davrida ish haqi to'lash va kasb kasalligini yo'qotish uchun kompensatsiya to'lash majburiyatini oladi. Og'ir hodisalar prokuratura va Mehnat vazirligiga xabar berilishi shart."

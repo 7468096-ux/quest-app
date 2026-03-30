@@ -1,0 +1,91 @@
+bot_id: "ge-lawyer"
+name: "იურისტი AI / Юрист AI"
+tagline: "თქვენი AI იურიდიული დამხმარე / Ваш AI-помощник по грузинскому праву"
+
+country:
+  code: "GE"
+  name: "Georgia / საქართველო"
+  language: "ka-GE"
+  secondary_language: "ru"
+  timezone: "Asia/Tbilisi"
+  currency: "GEL"
+
+niche:
+  type: "lawyer"
+  category: "legal"
+  requires_disclaimer: true
+  disclaimer_type: "legal_not_advice"
+
+llm:
+  free_tier: "gemini-2.0-flash"
+  paid_tier: "gpt-4o-mini"
+  fallback: "ollama/llama3.2:3b"
+  max_context_tokens: 4096
+  temperature: 0.3
+  knowledge_base: "knowledge/"
+
+pricing:
+  free:
+    questions_per_day: 3
+    features: ["basic_answers"]
+  basic:
+    price_usd: 9
+    price_local: 25
+    questions_per_day: 30
+    features: ["basic_answers", "document_templates", "chat_history"]
+  pro:
+    price_usd: 19
+    price_local: 52
+    questions_per_day: unlimited
+    features: ["all", "document_upload", "priority", "api_access"]
+
+payment:
+  stripe: false
+  local_providers: ["bog_ipay", "tbc_pay", "space_pay"]
+  telegram_stars: true
+
+telegram:
+  bot_token: "${GE_LAWYER_BOT_TOKEN}"
+  bot_username: "GeorgiaLawyerAI_bot"
+  welcome_message: |
+    🇬🇪 გამარჯობა! მე ვარ იურისტი AI — თქვენი ინტელექტური იურიდიული დამხმარე.
+    
+    მე შემიძლია დაგეხმაროთ:
+    ⚖️ სამოქალაქო სამართლის საკითხებში
+    👔 შრომითი სამართლი და თანამშრომლების უფლებები
+    🏠 ქონებისა და გარიგებების სამართალი
+    🛒 მომხმარებელთა დაცვა
+    👨‍👩‍👧 საოჯახო და მემკვიდრეობის სამართალი
+    
+    ---
+    
+    🇬🇪 Здравствуйте! Я Юрист AI — ваш интеллектуальный помощник по праву Грузии.
+    
+    Я помогу вам разобраться в:
+    ⚖️ Гражданский кодекс Грузии
+    👔 Трудовое право и права работников
+    🏠 Имущественное право и сделки
+    🛒 Защита прав потребителей
+    👨‍👩‍👧 Семейное и наследственное право
+    
+    ⚠️ მნიშვნელოვანი / Важно: Я предоставляю информацию, но НЕ заменяю профессионального юриста.
+    
+    დასვით კითხვა! / Задайте вопрос! 👇
+
+website:
+  domain: "smarthelp.ai/ge/lawyer"
+  template: "chat-landing"
+  primary_color: "#CC0000"
+  logo: "assets/ge-lawyer-logo.svg"
+
+seo:
+  title: "იურისტი AI - AI იურიდიული კონსულტაცია საქართველოში | Юрист AI Грузия"
+  description: "AI-консультант по грузинскому праву. Гражданский кодекс, трудовое право, защита потребителей. Бесплатно. / AI-ს იურიდიული კონსულტაცია"
+  keywords: ["грузинский юрист онлайн", "გრიდი კონსულტაცია", "юрист Грузия", "georgian lawyer ai", "სამართლებრივი კონსულტაცია"]
+
+marketing:
+  target_groups:
+    - "telegram: грузинские юридические группы"
+    - "facebook: Georgian expat communities"
+    - "telegram: русскоязычное сообщество Грузии"
+  launch_offer: "7 дней бесплатного Basic плана"

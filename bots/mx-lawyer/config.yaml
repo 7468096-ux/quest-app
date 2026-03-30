@@ -1,0 +1,75 @@
+bot_id: "mx-lawyer"
+name: "AbogadoIA"
+tagline: "Tu asistente legal con inteligencia artificial para México"
+
+country:
+  code: "MX"
+  name: "México"
+  language: "es-MX"
+  timezone: "America/Mexico_City"
+  currency: "MXN"
+
+niche:
+  type: "lawyer"
+  category: "legal"
+  requires_disclaimer: true
+  disclaimer_type: "legal_not_advice"
+
+llm:
+  free_tier: "gemini-2.0-flash"
+  paid_tier: "gpt-4o-mini"
+  fallback: "ollama/llama3.2:3b"
+  max_context_tokens: 4096
+  temperature: 0.3
+  knowledge_base: "knowledge/"
+
+pricing:
+  free:
+    questions_per_day: 3
+    features: ["basic_answers"]
+  basic:
+    price_usd: 9
+    price_local: 160
+    questions_per_day: 30
+    features: ["basic_answers", "document_templates", "chat_history"]
+  pro:
+    price_usd: 19
+    price_local: 340
+    questions_per_day: unlimited
+    features: ["all", "document_upload", "priority", "api_access"]
+
+payment:
+  stripe: true
+  local_providers: ["mercado_pago", "oxxo"]
+  telegram_stars: true
+
+telegram:
+  bot_token: "${MX_LAWYER_BOT_TOKEN}"
+  bot_username: "AbogadoIA_bot"
+  welcome_message: |
+    🇲🇽 ¡Hola! Soy AbogadoIA, tu asistente legal con inteligencia artificial.
+    Puedo ayudarte con dudas sobre derecho civil, laboral, 
+    del consumidor, familiar y mercantil en México.
+    
+    ⚖️ Importante: No soy abogado. Mis respuestas son 
+    informativas y no sustituyen la asesoría de un profesional.
+    
+    ¡Pregunta lo que necesites! 👇
+
+website:
+  domain: "abogadoia.mx"
+  template: "chat-landing"
+  primary_color: "#006847"
+  logo: "assets/abogadoia-logo.svg"
+
+seo:
+  title: "AbogadoIA - Asesoría Legal con IA | Consultas Jurídicas México"
+  description: "Consulta a un asistente legal con inteligencia artificial. Respuestas sobre derecho civil, laboral, del consumidor en México. Gratis."
+  keywords: ["abogado ia", "consulta legal online mexico", "derecho laboral mexico", "asesoría jurídica gratis"]
+
+marketing:
+  target_groups:
+    - "telegram: grupos de derecho México"
+    - "facebook: emprendedores México"
+    - "reddit: r/mexico, r/mexico_legal"
+  launch_offer: "7 días gratis del plan Basic"

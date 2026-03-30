@@ -1,0 +1,169 @@
+bot_id: co-accountant
+language: es-CO
+
+faq:
+  - question: "¿Cuándo estoy obligado a declarar renta como persona natural en Colombia?"
+    answer: |
+      📊 Debes presentar **declaración de renta** si en el año anterior cumpliste al menos UNO de estos requisitos:
+
+      💰 **Ingresos brutos:**
+      - Ingresos totales superiores a **1.400 UVT** (~$66.000.000 COP en 2025)
+
+      🏦 **Patrimonio:**
+      - Patrimonio bruto al 31 de diciembre superior a **4.500 UVT** (~$212.000.000 COP)
+
+      💳 **Consumos y movimientos:**
+      - Consumos con tarjeta de crédito superiores a **1.400 UVT**
+      - Consignaciones, depósitos o inversiones superiores a **1.400 UVT**
+      - Compras y consumos totales superiores a **1.400 UVT**
+
+      🛒 **Otros casos:**
+      - Responsables del IVA (sin importar ingresos)
+      - Empleados con más de un empleador
+
+      📅 **¿Cuándo declarar?**
+      Agosto a octubre, según los últimos dos dígitos del NIT. El calendario exacto lo publica la DIAN cada año.
+
+      💰 *Aviso: Soy una IA informativa. Verifica tu situación con un contador o en [dian.gov.co](https://www.dian.gov.co).*
+
+  - question: "¿Qué es el Régimen Simple de Tributación y quién puede acogerse?"
+    answer: |
+      🏛️ El **Régimen Simple de Tributación (RST)** es un sistema simplificado que reemplaza varios impuestos en un solo pago.
+
+      ✅ **¿Qué impuestos reemplaza?**
+      - Impuesto de Renta
+      - ICA (Industria y Comercio, en municipios adheridos)
+      - Impuesto al Consumo (restaurantes y bares)
+
+      📋 **¿Quiénes pueden acogerse?**
+      - Personas naturales o jurídicas con ingresos hasta **100.000 UVT** anuales (~$4.700 millones COP)
+      - Sin condenas por delitos tributarios en los últimos 5 años
+      - Al día con obligaciones tributarias
+
+      📊 **Tarifas según actividad (sobre ingresos brutos):**
+      - Tiendas, minimercados, peluquerías: **1,8% a 5,4%**
+      - Servicios profesionales, consultorías: **4,9% a 8,5%**
+      - Actividades industriales: **2,5% a 5,4%**
+      - Educación, restaurantes, hoteles: **3,4% a 7,0%**
+      - Servicios de salud: **2,3% a 6,5%**
+
+      📅 **Pagos:**
+      - Anticipos bimestrales (recibo electrónico DIAN)
+      - Declaración anual en marzo
+
+      💡 **Ventaja clave:** menos formularios, una sola tarifa sobre ingresos.
+
+      💰 *Aviso: Soy una IA informativa. Consulta con un contador para evaluar si el RST te conviene.*
+
+  - question: "¿Cómo funciona la retención en la fuente en Colombia?"
+    answer: |
+      💸 La **retención en la fuente** es un mecanismo de recaudo anticipado del impuesto de renta.
+
+      📌 **¿Cómo funciona?**
+      Cuando pagas por un servicio u compra, el pagador retiene un porcentaje y lo declara directamente ante la DIAN. El proveedor recibe menos, pero ese monto ya está "abonado" a su impuesto de renta.
+
+      📊 **Tarifas más comunes:**
+      | Concepto | Tarifa |
+      |----------|--------|
+      | Honorarios (si declarante renta) | 10% |
+      | Honorarios (si NO declarante) | 11% |
+      | Compras generales | 2,5% |
+      | Arrendamiento inmueble | 3,5% o 4% |
+      | Servicios de transporte | 3,5% |
+      | Rendimientos financieros | 4% a 7% |
+      | Dividendos gravados | 10% a 20% |
+
+      📋 **¿Quién retiene?**
+      Las personas jurídicas y las personas naturales que son "agentes de retención" (declarantes de renta con ingresos superiores a 30.000 UVT).
+
+      🗓️ **Declaración:** mensual, **Formulario 350** en MUISCA.
+
+      💰 *Aviso: Soy una IA informativa. Para casos específicos de retención, consulta con un contador.*
+
+  - question: "¿Cuánto le cuesta a una empresa contratar un empleado en Colombia?"
+    answer: |
+      👷 Al salario pactado con el empleado, la empresa debe sumar los **aportes parafiscales y prestaciones sociales**:
+
+      📊 **Aportes a cargo del EMPLEADOR (% del salario):**
+      - 🏥 Salud (EPS): **8,5%**
+      - 🏦 Pensión (AFP): **12%**
+      - ⚠️ ARL (riesgos): **0,52% a 6,96%** (según riesgo de la actividad)
+      - 👶 ICBF: **3%** (solo si salario < 10 SMLMV)
+      - 🎓 SENA: **2%** (solo si salario < 10 SMLMV)
+      - 🏢 Caja de Compensación: **4%**
+
+      📌 **Prestaciones sociales (carga mensual equivalente):**
+      - Cesantías: **8,33%**
+      - Intereses a las cesantías: **1%**
+      - Prima de servicios: **8,33%**
+      - Vacaciones: **4,17%**
+
+      📐 **Ejemplo con salario mínimo ($1.423.500 COP, 2025):**
+      - Aportes parafiscales: ~$508.000
+      - Prestaciones: ~$308.000
+      - **Costo real total: ~$2.240.000/mes** (≈57% más que el salario base)
+
+      ⚠️ El auxilio de transporte ($200.000) se incluye para liquidar cesantías y prima, pero NO para pensión/salud.
+
+      💰 *Aviso: Soy una IA informativa. Para liquidaciones exactas, consulta con un contador o experto en nómina.*
+
+  - question: "¿Qué es el IVA en Colombia y cuándo debo registrarme como responsable?"
+    answer: |
+      🧾 El **IVA** (Impuesto sobre las Ventas) es el principal impuesto al consumo en Colombia.
+
+      📊 **Tarifas:**
+      - **19%** — tarifa general (mayoría de bienes y servicios)
+      - **5%** — bienes específicos (algunos seguros, café molido, etc.)
+      - **0%** — bienes exentos (carne, pollo, leche, medicamentos, educación)
+      - **Excluidos** — no causan IVA (algunos servicios públicos, arriendos vivienda)
+
+      ✅ **¿Cuándo debes inscribirte como Responsable de IVA en el RUT?**
+      Cuando cumples ALGUNO de estos:
+      - Ingresos brutos > **3.500 UVT** anuales (~$164.000.000 COP)
+      - Tienes más de 1 establecimiento de comercio
+      - Eres importador o exportador
+      - Tu actividad es de retail o servicios gravados a gran escala
+
+      🚫 **No Responsable de IVA** (antes "Régimen Simplificado"):
+      - Ingresos < 3.500 UVT
+      - Máximo 1 establecimiento
+      - Sin operaciones con extranjeros
+      → No cobras IVA, no presentas declaración de IVA
+
+      📅 **Declaración de IVA:**
+      - Grandes contribuyentes: bimestral
+      - Demás responsables: cuatrimestral (ene-abr / may-ago / sep-dic)
+
+      💰 *Aviso: Soy una IA informativa. Verifica tu responsabilidad en el RUT con ayuda de un contador.*
+
+  - question: "¿Cómo registro una empresa SAS en Colombia?"
+    answer: |
+      🏢 La **SAS** (Sociedad por Acciones Simplificada) es la forma jurídica más usada por emprendedores en Colombia. Rápida, flexible y con responsabilidad limitada.
+
+      📋 **Pasos para crear una SAS:**
+
+      **1️⃣ Documento de constitución**
+      - Acta o escritura privada (o pública si hay aportes en inmuebles)
+      - Incluye: nombre, objeto social, capital, accionistas, representante legal
+
+      **2️⃣ Registro en Cámara de Comercio**
+      - Presenta el documento + formulario de registro
+      - Paga impuesto de registro (~0,7% del capital) y derechos de matrícula
+      - Costo aproximado: $200.000 a $800.000 COP según el capital
+
+      **3️⃣ Inscripción en el RUT (DIAN)**
+      - Online en muisca.dian.gov.co
+      - Define las responsabilidades tributarias (IVA, renta, retención)
+      - Obtienes el NIT definitivo
+
+      **4️⃣ Cuenta bancaria empresarial**
+      - Necesitas el RUT y certificado de existencia y representación legal
+
+      **5️⃣ Factura electrónica**
+      - Habilitación en MUISCA antes de la primera venta
+
+      ⏱️ **Tiempo total:** 3-5 días hábiles si todo está en orden.
+
+      📅 **Renovación de matrícula mercantil:** cada año antes del 31 de marzo.
+
+      💰 *Aviso: Soy una IA informativa. Para la constitución formal, se recomienda asesoría de un contador o abogado.*

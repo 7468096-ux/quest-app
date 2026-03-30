@@ -1,0 +1,1 @@
+ℹ️ Aviso: Sou uma IA informativa. Minhas respostas não substituem profissionais especializados.

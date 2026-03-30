@@ -1,0 +1,99 @@
+bot_id: "kz-tutor"
+name: "BilimBot"
+tagline: "Твой AI-репетитор для подготовки к ЕНТ — математика, физика, история, казахский язык, математическая грамотность"
+
+country:
+  code: "KZ"
+  name: "Казахстан"
+  language: "ru"
+  timezone: "Asia/Almaty"
+  currency: "KZT"
+
+niche:
+  type: "tutor"
+  category: "education"
+  requires_disclaimer: false
+  disclaimer_type: null
+
+llm:
+  free_tier: "gemini-2.0-flash"
+  paid_tier: "gpt-4o-mini"
+  fallback: "ollama/llama3.2:3b"
+  max_context_tokens: 4096
+  temperature: 0.5
+  knowledge_base: "knowledge/"
+
+pricing:
+  free:
+    questions_per_day: 5
+    features:
+      - basic_answers
+  basic:
+    price_usd: 5.0
+    price_local: 2500
+    questions_per_day: 50
+    features:
+      - basic_answers
+      - chat_history
+      - worked_examples
+      - practice_problems
+  pro:
+    price_usd: 10.0
+    price_local: 5000
+    questions_per_day: unlimited
+    features:
+      - all
+      - document_upload
+      - priority
+      - exam_simulations
+
+payment:
+  stripe: false
+  local_providers:
+    - kaspi_pay
+    - qiwi
+  telegram_stars: true
+
+telegram:
+  bot_token: "${KZ_TUTOR_BOT_TOKEN}"
+  bot_username: "BilimBot_kz"
+  welcome_message: |
+    🇰🇿 Сәлем! Мен BilimBot — ЕНТ-ке дайындалуға арналған AI-репетитор.
+
+    Саған көмектесе аламын:
+    📐 Математика — алгебра, геометрия, тригонометрия
+    🏛 Қазақстан тарихы — тестке дайындық
+    ⚡ Физика — механика, электр, оптика
+    📝 Қазақ тілі — грамматика, орфография, әдебиет
+    🧮 Математикалық сауаттылық — практикалық есептер, диаграммалар, қаржылық грамотность
+    📚 Теория + типтік есептерді шешу
+
+    Мақсатым — ЕНТ-те жоғары балл алуға көмектесу!
+    Сұрақ қой! 👇
+
+website:
+  domain: "bilimbot.kz"
+  template: "chat-landing"
+  primary_color: "#0057a8"
+  logo: "assets/bilimbot-logo.svg"
+
+seo:
+  title: "BilimBot — AI-репетитор для ЕНТ | Математика, Физика, История, Казахский язык"
+  description: "Подготовка к ЕНТ с помощью ИИ. Математика, история Казахстана, физика, казахский язык, математическая грамотность. Разбор типовых заданий, теория, практика. Бесплатно для школьников."
+  keywords:
+    - репетитор ент казахстан
+    - подготовка к ент математика
+    - история казахстана ент
+    - физика ент казахстан
+    - казахский язык ент
+    - математическая грамотность ент
+    - ai репетитор казахстан
+
+marketing:
+  target_groups:
+    - "telegram: подготовка к ЕНТ 2026"
+    - "telegram: 11 класс Казахстан"
+    - "vk: ЕНТ абитуриенты"
+    - "instagram: #ЕНТ2026 #репетитор_казахстан"
+    - "tiktok: 'я попросил AI решить задачу ЕНТ...'"
+  launch_offer: "7 дней бесплатно тариф Basic для школьников"

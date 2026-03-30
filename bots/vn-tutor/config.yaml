@@ -1,0 +1,105 @@
+bot_id: "vn-tutor"
+name: "GiaSuAI"
+tagline: "Gia sư AI cho kỳ thi Tốt nghiệp THPT Quốc gia"
+
+country:
+  code: "VN"
+  name: "Việt Nam"
+  language: "vi-VN"
+  timezone: "Asia/Ho_Chi_Minh"
+  currency: "VND"
+
+niche:
+  type: "tutor"
+  category: "education"
+  requires_disclaimer: false
+  disclaimer_type: null
+
+llm:
+  free_tier: "gemini-2.0-flash"
+  paid_tier: "gpt-4o-mini"
+  fallback: "ollama/llama3.2:3b"
+  max_context_tokens: 4096
+  temperature: 0.5
+  knowledge_base: "knowledge/"
+
+pricing:
+  free:
+    questions_per_day: 5
+    features:
+      - basic_answers
+  basic:
+    price_usd: 4.0
+    price_local: 99000
+    questions_per_day: 50
+    features:
+      - basic_answers
+      - chat_history
+      - worked_examples
+      - practice_problems
+  pro:
+    price_usd: 8.0
+    price_local: 199000
+    questions_per_day: unlimited
+    features:
+      - all
+      - document_upload
+      - priority
+      - exam_simulations
+
+payment:
+  stripe: false
+  local_providers:
+    - vnpay
+    - momo
+    - zalopay
+  telegram_stars: true
+
+telegram:
+  bot_token: "${VN_TUTOR_BOT_TOKEN}"
+  bot_username: "GiaSuAI_bot"
+  welcome_message: |
+    🇻🇳 Xin chào! Mình là GiaSuAI — gia sư AI cho kỳ thi Tốt nghiệp THPT Quốc gia!
+
+    Mình có thể giúp bạn ôn luyện:
+    🎓 Kỳ thi Tốt nghiệp THPT Quốc gia (bắt buộc + tự chọn)
+    📐 Toán học — Đại số, Hình học, Giải tích, Xác suất thống kê
+    📝 Ngữ văn — Đọc hiểu, Nghị luận xã hội, Nghị luận văn học
+    🌍 Tiếng Anh — Grammar, Vocabulary, Reading, Writing
+    ⚡ Vật lý — Cơ học, Điện học, Quang học, Sóng
+    🧪 Hóa học — Vô cơ, Hữu cơ, Điện phân, Phản ứng
+    🌱 Sinh học — Di truyền, Tế bào, Sinh thái, Tiến hóa
+    📖 Lịch sử & Địa lý
+
+    Hỏi mình bất cứ điều gì! 👇
+
+website:
+  domain: "smarthelp.ai/vn/tutor"
+  template: "chat-landing"
+  primary_color: "#DA251D"
+  secondary_color: "#FFFF00"
+  logo: "assets/giasuai-logo.svg"
+
+seo:
+  title: "GiaSuAI — Gia sư AI ôn thi Tốt nghiệp THPT Quốc gia miễn phí"
+  description: "Gia sư AI miễn phí ôn thi THPT Quốc gia. Toán, Văn, Anh, Lý, Hóa, Sinh với giải thích chi tiết từng bước. Luyện đề thi thử 2024–2025."
+  keywords:
+    - ôn thi thpt quốc gia
+    - gia sư ai việt nam
+    - luyện thi đại học
+    - toán thpt quốc gia
+    - ngữ văn thpt
+    - tiếng anh thpt
+    - vật lý thpt
+    - hóa học thpt
+    - sinh học thpt
+    - đề thi thử thpt 2025
+
+marketing:
+  target_groups:
+    - "telegram: Ôn thi THPT 2025, Học sinh cấp 3 Việt Nam"
+    - "facebook: Ôn thi THPT Quốc gia, Hội học sinh lớp 12"
+    - "tiktok: 'Hỏi AI giải toán THPT — kết quả bất ngờ...'"
+    - "zalo: nhóm học sinh ôn thi"
+    - "youtube: kênh học tốt, ôn thi THPT"
+  launch_offer: "7 ngày dùng thử gói Basic miễn phí"

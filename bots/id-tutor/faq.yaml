@@ -1,0 +1,102 @@
+faqs:
+  - question: "Bagaimana cara menghitung limit fungsi?"
+    answer: |
+      🔢 **Limit Fungsi** — Konsep Dasar
+
+      Limit lim(x→a) f(x) = L berarti: ketika x mendekati a, nilai f(x) mendekati L.
+
+      **Cara menghitung:**
+      1. **Substitusi langsung:** coba masukkan x = a. Jika hasilnya terdefinisi → itu jawabannya.
+      2. **Faktorisasi:** jika dapat bentuk 0/0, faktorkan pembilang dan penyebut.
+      3. **Kalikan konjugat:** jika ada bentuk akar.
+      4. **L'Hôpital:** turunkan pembilang dan penyebut (untuk 0/0 atau ∞/∞).
+
+      **Contoh:** lim(x→2) (x²-4)/(x-2) = lim(x→2) (x+2)(x-2)/(x-2) = lim(x→2) (x+2) = 4
+
+  - question: "Jelaskan perbedaan sel hewan dan sel tumbuhan"
+    answer: |
+      🔬 **Perbedaan Sel Hewan vs Sel Tumbuhan**
+
+      | Ciri | Sel Hewan | Sel Tumbuhan |
+      |------|-----------|--------------|
+      | Dinding sel | ❌ Tidak ada | ✅ Ada (selulosa) |
+      | Vakuola | Kecil/tidak ada | Besar (vakuola pusat) |
+      | Kloroplas | ❌ Tidak ada | ✅ Ada (fotosintesis) |
+      | Sentriol | ✅ Ada | ❌ Tidak ada |
+      | Bentuk | Tidak tetap | Tetap/kaku |
+      | Lisosom | ✅ Banyak | Jarang |
+
+      **Ingat:** Sel tumbuhan punya "3K" — Kloroplas, Kaku (dinding sel), Kamar besar (vakuola)!
+
+  - question: "Apa itu hukum Newton dan contohnya?"
+    answer: |
+      🍎 **Tiga Hukum Newton**
+
+      **Hukum I (Inersia):** Benda diam tetap diam, benda bergerak tetap bergerak lurus beraturan, jika tidak ada gaya luar.
+      → Contoh: tubuh terdorong maju saat mobil direm mendadak
+
+      **Hukum II (F = ma):** Gaya = Massa × Percepatan
+      → Contoh: mendorong mobil mogok (F besar → a lebih besar)
+      → Rumus: F = m × a (satuan: Newton = kg × m/s²)
+
+      **Hukum III (Aksi-Reaksi):** Setiap aksi ada reaksi yang sama besar, berlawanan arah.
+      → Contoh: roket meluncur (gas keluar ke bawah → roket naik ke atas)
+
+  - question: "Bagaimana cara mengerjakan soal TPS UTBK?"
+    answer: |
+      🎯 **Tips Mengerjakan TPS (Tes Potensi Skolastik) UTBK**
+
+      TPS terdiri dari 4 subtes:
+      1. **Penalaran Umum** — logika, analisis argumen
+      2. **Pemahaman Bacaan** — membaca cepat dan akurat
+      3. **Pengetahuan Kuantitatif** — matematika dasar
+      4. **Pengetahuan & Pemahaman Umum** — pengetahuan umum
+
+      **Strategi:**
+      - Kerjakan yang mudah dulu, tandai yang sulit
+      - Tidak ada pengurangan nilai — isi semua jawaban
+      - Latihan soal setiap hari (minimal 20 soal)
+      - Untuk bacaan: baca pertanyaan DULU, baru bacaan
+
+  - question: "Rumus kimia apa yang sering keluar di UTBK?"
+    answer: |
+      ⚗️ **Rumus Kimia Wajib UTBK**
+
+      **Stoikiometri:**
+      - n = m/Mr (mol = massa/massa molar)
+      - N = n × Nₐ (jumlah partikel = mol × 6,02×10²³)
+      - V = n × 22,4 L (STP) atau V = nRT/P
+
+      **Asam-Basa:**
+      - pH = -log[H⁺]
+      - Asam kuat: [H⁺] = M × valensi
+      - Basa kuat: [OH⁻] = M × valensi; pOH = -log[OH⁻]; pH = 14 - pOH
+
+      **Termodinamia:**
+      - ΔG = ΔH - TΔS (spontan jika ΔG < 0)
+      - ΔH reaksi = ΣΔHf produk - ΣΔHf reaktan
+
+      **Laju Reaksi:**
+      - v = k[A]ᵐ[B]ⁿ
+      - Faktor: suhu, konsentrasi, luas permukaan, katalis
+
+  - question: "Bagaimana cara menulis esai bahasa Indonesia yang baik?"
+    answer: |
+      ✍️ **Struktur Esai Bahasa Indonesia**
+
+      **1. Pendahuluan (10-15% panjang esai):**
+      - Hook: fakta menarik, pertanyaan, atau kutipan
+      - Latar belakang masalah
+      - Tesis: pernyataan pendapat utama kamu
+
+      **2. Isi/Pembahasan (70-80%):**
+      - Setiap paragraf = 1 ide utama (kalimat topik)
+      - Dukung dengan data, fakta, contoh, atau kutipan
+      - Gunakan kata transisi: "Pertama..., Selain itu..., Di sisi lain..., Oleh karena itu..."
+
+      **3. Kesimpulan (10-15%):**
+      - Ringkas poin-poin utama
+      - Ulangi tesis dengan kata-kata berbeda
+      - Penutup yang berkesan (ajakan, prediksi, atau refleksi)
+
+      **Tips:** Hindari kalimat terlalu panjang. Paragraf ideal = 3-5 kalimat.

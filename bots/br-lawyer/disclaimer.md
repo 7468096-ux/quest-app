@@ -1,0 +1,1 @@
+⚖️ Aviso: Sou uma IA informativa. Minhas respostas NÃO constituem aconselhamento jurídico profissional. Para questões legais importantes, consulte um advogado registrado na OAB.

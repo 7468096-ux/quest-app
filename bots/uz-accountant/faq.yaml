@@ -1,0 +1,120 @@
+faq:
+  - q: "YT ochish uchun nima kerak?"
+    a: |
+      🇺🇿 Yakka tartibli tadbirkorni ro'yxatdan o'tkazish:
+      
+      📋 Kerakli hujjatlar:
+      • Pasport (O'zbekiston fuqarosi)
+      • INN (soliq raqami) — my.soliq.uz orqali olish mumkin
+      
+      🌐 Ro'yxatdan o'tish usullari:
+      1. **Online:** my.soliq.uz → "Ro'yxatdan o'tish" bo'limi
+      2. **Shaxsan:** yashash joyi bo'yicha soliq inspektsiyasiga
+      
+      💰 Davlat boji: 0 so'm (2023-yildan bepul)
+      ⏱ Muddati: 1 ish kuni
+      
+      Ro'yxatdan o'tgach, soliq rejimini (YST yoki umumiy) tanlashingiz kerak.
+
+  - q: "YT uchun qanday soliqlar bor?"
+    a: |
+      🇺🇿 YT uchun asosiy soliq rejimlari:
+      
+      **1. Yagona Soliq To'lovi (YST)** — eng oddiy:
+      • Savdo/xizmat: daromadning 4% (aylanma)
+      • Ishlab chiqarish: 1%
+      • Yillik aylanma chegarasi: 1 mlrd so'm gacha
+      
+      **2. Umumiy soliq rejimi:**
+      • JSHDS (daromad solig'i): 12%
+      • QQS: 12% (agar aylanma 1 mlrd dan oshsa — majburiy)
+      • INPS (ijtimoiy to'lov): oylik 1 BHM (bazaviy hisoblash miqdori)
+      
+      📅 Hisobot: choraklik (har uch oyda bir marta)
+      
+      💡 Tavsiya: Yillik aylanma 500 mln gacha bo'lsa — YST, undan yuqori bo'lsa buxgalterga maslahat oling.
+
+  - q: "QQS nima va kim to'laydi?"
+    a: |
+      💼 QQS (Qo'shilgan qiymat solig'i) = НДС:
+      
+      **Stavka:** 12%
+      
+      **Kim to'lashi majburiy:**
+      • YT yoki MChJ bo'lib, yillik aylanma **1 mlrd so'mdan** oshsa
+      • Import qiluvchilar (har doim)
+      
+      **Ixtiyoriy ro'yxatdan o'tish:**
+      • Yirik mijozlar bilan ishlashda foydali (ular QQSni qaytara oladi)
+      
+      **QQS hisoblash:**
+      • Sotish narxi × 12% = to'lash kerak bo'lgan QQS
+      • Minus: xaridlardagi QQS (kiruvchi QQS)
+      
+      **Hisobot:** har oyda, keyingi oyning 25-sanasigacha
+      
+      📌 my.soliq.uz orqali elektron hisobot topshiriladi.
+
+  - q: "Ish haqi soliqlarini qanday hisoblash kerak?"
+    a: |
+      💰 Xodim ish haqi soliqlarini hisoblash:
+      
+      Misol: Brutto ish haqi = 5,000,000 so'm
+      
+      **Xodimdan ushlanadi:**
+      • JSHDS (daromad solig'i): 12% = 600,000 so'm
+      • INPS (ijtimoiy sug'urta): 8% = 400,000 so'm
+      • **Jami ushlanadigan:** 1,000,000 so'm
+      • **Qo'lga berish (netto):** 4,000,000 so'm
+      
+      **Ish beruvchi to'laydi (plyus):**
+      • INPS (ish beruvchi ulushi): 12% = 600,000 so'm
+      • Pensiya jamg'armasi: 0.5% = 25,000 so'm
+      
+      **Jami ish beruvchi xarajati:**
+      5,000,000 + 625,000 = 5,625,000 so'm
+      
+      📅 Ish haqi soliqlari: oyning oxirigacha to'lanadi
+
+  - q: "JSHDS (daromad solig'i) nima?"
+    a: |
+      📊 JSHDS — Jismoniy shaxslardan olinadigan daromad solig'i:
+      
+      **Stavka:** 12% (yagona, progressiv emas)
+      
+      **Kim to'laydi:**
+      • Ish haqi oladiganlar — ish beruvchi ushlab qoladi
+      • YT tadbirkorlar — o'zi hisobot topshiradi
+      • Ijara daromadi oladiganlar
+      
+      **Qaysi daromadlar soliqqa tortilmaydi:**
+      • Stipendiyalar (belgilangan miqdorda)
+      • Nafaqalar va ijtimoiy yordam
+      • Meros
+      
+      **Hisobot (YT uchun):** yil yakunlari bo'yicha, 1 aprelgacha
+      
+      💡 Xodimlar uchun ish beruvchi o'zi to'laydi — qo'shimcha harakat shart emas.
+
+  - q: "Soliq hisobotlari qachon topshiriladi?"
+    a: |
+      📅 Asosiy muddatlar (2025-2026):
+      
+      **Har oyda:**
+      • QQS hisoboti → keyingi oyning 25-sanasi
+      • Ish haqi soliqlari → oyning oxiri
+      
+      **Choraklik (YST to'lovchilar):**
+      • 1-chorak (yanvar-mart) → 20 aprelgacha
+      • 2-chorak (aprel-iyun) → 20 iyulgacha
+      • 3-chorak (iyul-sentyabr) → 20 oktyabrgacha
+      • 4-chorak (oktyabr-dekabr) → 20 yanvargacha
+      
+      **Yillik:**
+      • Daromad solig'i deklaratsiyasi → 1 aprelgacha
+      
+      **Jarimalar:**
+      • Kechiktirilgan hisobot: 5% + BHM × N
+      • To'lanmagan soliq: 0.033% kunlik
+      
+      🌐 Topshirish: my.soliq.uz (elektron kabinetdan)

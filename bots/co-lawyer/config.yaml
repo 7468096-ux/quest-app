@@ -1,0 +1,75 @@
+bot_id: co-lawyer
+name: AbogadoCO
+tagline: "Tu asistente legal con inteligencia artificial para Colombia"
+
+country:
+  code: CO
+  name: Colombia
+  language: es-CO
+  timezone: America/Bogota
+  currency: COP
+
+niche:
+  type: lawyer
+  category: legal
+  requires_disclaimer: true
+  disclaimer_type: legal_not_advice
+
+llm:
+  free_tier: gemini-2.0-flash
+  paid_tier: gpt-4o-mini
+  fallback: ollama/llama3.2:3b
+  max_context_tokens: 4096
+  temperature: 0.3
+  knowledge_base: "knowledge/"
+
+pricing:
+  free:
+    questions_per_day: 3
+    features: ["basic_answers"]
+  basic:
+    price_usd: 9
+    price_local: 37000
+    questions_per_day: 30
+    features: ["basic_answers", "document_templates", "chat_history"]
+  pro:
+    price_usd: 19
+    price_local: 78000
+    questions_per_day: unlimited
+    features: ["all", "document_upload", "priority", "api_access"]
+
+payment:
+  stripe: false
+  local_providers: ["pse", "nequi", "daviplata"]
+  telegram_stars: true
+
+telegram:
+  bot_token: "${CO_LAWYER_BOT_TOKEN}"
+  bot_username: "AbogadoCO_bot"
+  welcome_message: |
+    🇨🇴 ¡Hola! Soy AbogadoCO, tu asistente legal con IA para Colombia.
+    Puedo ayudarte con preguntas sobre derecho laboral, civil, del consumidor,
+    arrendamientos, familia y más, según la legislación colombiana.
+
+    ⚖️ Importante: No soy abogado. Mis respuestas son informativas
+    y no reemplazan la consulta con un abogado titulado e inscrito.
+
+    ¡Pregúntame lo que necesites! 👇
+
+website:
+  domain: "smarthelp.ai/co/lawyer"
+  template: "chat-landing"
+  primary_color: "#003087"
+  secondary_color: "#FCD116"
+
+seo:
+  title: "AbogadoCO - Asistente Legal con IA para Colombia"
+  description: "Consulta legal gratuita con inteligencia artificial. Derecho laboral, civil, consumidor, arrendamiento según la legislación colombiana."
+  keywords: ["abogado ia colombia", "consulta legal online colombia", "codigo sustantivo trabajo", "estatuto consumidor colombia", "derechos laborales colombia"]
+
+marketing:
+  target_groups:
+    - "telegram: grupos de derecho y leyes colombia"
+    - "facebook: emprendedores colombia, trabajadores independientes"
+    - "reddit: r/colombia, r/asesorialegalcolombia"
+  launch_offer: "7 días gratis del plan Basic"

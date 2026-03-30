@@ -1,0 +1,75 @@
+bot_id: "br-lawyer"
+name: "JurisIA"
+tagline: "Seu assistente jurídico com inteligência artificial"
+
+country:
+  code: "BR"
+  name: "Brasil"
+  language: "pt-BR"
+  timezone: "America/Sao_Paulo"
+  currency: "BRL"
+
+niche:
+  type: "lawyer"
+  category: "legal"
+  requires_disclaimer: true
+  disclaimer_type: "legal_not_advice"
+
+llm:
+  free_tier: "gemini-2.0-flash"
+  paid_tier: "gpt-4o-mini"
+  fallback: "ollama/llama3.2:3b"
+  max_context_tokens: 4096
+  temperature: 0.3
+  knowledge_base: "knowledge/"
+
+pricing:
+  free:
+    questions_per_day: 3
+    features: ["basic_answers"]
+  basic:
+    price_usd: 9
+    price_local: 45
+    questions_per_day: 30
+    features: ["basic_answers", "document_templates", "chat_history"]
+  pro:
+    price_usd: 19
+    price_local: 95
+    questions_per_day: "unlimited"
+    features: ["all", "document_upload", "priority", "api_access"]
+
+payment:
+  stripe: true
+  local_providers: ["mercado_pago", "pix"]
+  telegram_stars: true
+
+telegram:
+  bot_token: "${BR_LAWYER_BOT_TOKEN}"
+  bot_username: "JurisIA_bot"
+  welcome_message: |
+    🇧🇷 Olá! Eu sou o JurisIA, seu assistente jurídico com IA.
+    Posso ajudar com dúvidas sobre direito civil, trabalhista,
+    do consumidor e muito mais.
+
+    ⚖️ Importante: Não sou advogado. Minhas respostas são
+    informativas e não substituem consulta profissional.
+
+    Pergunte qualquer coisa! 👇
+
+website:
+  domain: "jurisia.com.br"
+  template: "chat-landing"
+  primary_color: "#1a5276"
+  logo: "assets/jurisia-logo.svg"
+
+seo:
+  title: "JurisIA - Assistente Jurídico com IA | Tire suas dúvidas"
+  description: "Consulte um assistente jurídico com inteligência artificial. Respostas sobre direito civil, trabalhista, consumidor. Grátis."
+  keywords: ["advogado ia", "consulta juridica online", "direito civil brasil"]
+
+marketing:
+  target_groups:
+    - "telegram: grupos de direito brasil"
+    - "facebook: empreendedores brasil"
+    - "reddit: r/direito, r/brasil"
+  launch_offer: "7 dias grátis do plano Basic"

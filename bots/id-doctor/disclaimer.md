@@ -1,0 +1,1 @@
+🏥 Perhatian: Saya adalah AI informasi kesehatan. Jawaban saya BUKAN merupakan diagnosis medis dan tidak menggantikan pemeriksaan oleh dokter berlisensi. Untuk kondisi darurat atau gejala serius, segera ke IGD atau hubungi 119 (ambulans nasional).

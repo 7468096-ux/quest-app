@@ -1,0 +1,90 @@
+faqs:
+  - question: "Qual é o limite de faturamento do MEI?"
+    answer: |
+      📋 O MEI (Microempreendedor Individual) tem limite de faturamento de **R$ 81.000 por ano** (R$ 6.750/mês em média).
+
+      Caso ultrapasse esse limite:
+      - Até 20% acima → continua MEI no ano atual, mas deve se desenquadrar no próximo ano
+      - Acima de 20% → desenquadramento imediato, migração para Simples Nacional ou outro regime
+
+      ✅ Se você está próximo do limite, consulte um contador para planejar a migração.
+
+  - question: "Quando vence o DAS do MEI?"
+    answer: |
+      📅 O DAS (Documento de Arrecadação do Simples) do MEI vence todo dia **20 de cada mês**.
+
+      Valores mensais em 2024:
+      - 💼 Comércio/Indústria: **R$ 71,60** (INSS R$ 66,00 + R$ 5,60 ICMS)
+      - 🛠️ Serviços: **R$ 75,60** (INSS R$ 66,00 + R$ 9,60 ISS)
+      - 🔀 Comércio + Serviços: **R$ 76,60** (INSS + ICMS + ISS)
+
+      Pague via: Portal do Empreendedor, app MEI, banco, lotérica ou Pix.
+
+  - question: "Como declarar o Imposto de Renda pela primeira vez?"
+    answer: |
+      📊 Para declarar o IRPF pela primeira vez:
+
+      1️⃣ **Baixe o programa** da Receita Federal (receita.fazenda.gov.br) ou use o app "Meu Imposto de Renda"
+      2️⃣ **Reúna os documentos:**
+         - Informe de rendimentos do empregador (Informe de Rendimentos)
+         - CPF e título de eleitor
+         - Comprovantes de bens (imóvel, carro)
+         - Recibos de saúde, educação (se quiser deduzir)
+      3️⃣ **Preencha** os dados na ficha correta
+      4️⃣ **Envie** até o último dia de abril
+
+      💡 Dica: Se tiver dúvida, use a declaração pré-preenchida — a Receita já importa vários dados automaticamente.
+
+  - question: "Qual a diferença entre MEI, Simples Nacional e Lucro Presumido?"
+    answer: |
+      🔍 Comparação dos regimes tributários:
+
+      **MEI** — para quem fatura até R$ 81k/ano, sozinho, sem sócios
+      - Pagamento fixo mensal (R$ ~70-77)
+      - Não pode ter funcionários (exceto 1)
+      - Ideal para: freelancers, pequenos prestadores
+
+      **Simples Nacional** — para ME e EPP até R$ 4,8 milhões/ano
+      - Alíquota progressiva por faturamento (4% a 33%)
+      - Até 60 funcionários
+      - Ideal para: empresas em crescimento
+
+      **Lucro Presumido** — para empresas até R$ 78 milhões/ano
+      - Base de cálculo presumida pelo tipo de atividade
+      - Mais complexo, exige contador
+      - Ideal para: empresas com margem alta
+
+      ✅ Para a maioria das pequenas empresas: Simples Nacional é mais vantajoso.
+
+  - question: "Como emitir nota fiscal como MEI?"
+    answer: |
+      🧾 Como emitir NF como MEI:
+
+      **Para serviços (NFS-e):**
+      1. Acesse o site da Prefeitura do seu município
+      2. Cadastre-se no sistema de NFS-e
+      3. Preencha: valor, serviço prestado, dados do tomador
+      4. Emita e envie ao cliente
+
+      **Para venda de produtos (NF-e):**
+      1. Acesse a SEFAZ do seu estado
+      2. Use o sistema gratuito da SEFAZ ou emissores gratuitos
+      3. Para emitir NF-e precisa ter certificado digital (A1 ou A3)
+
+      💡 Muitos clientes PJ exigem nota. Emitir não é opcional — é obrigatório para vendas e prestações acima de R$ 50 (dependendo do município).
+
+  - question: "Quanto pago de INSS como autônomo?"
+    answer: |
+      💰 INSS para trabalhadores autônomos (contribuinte individual):
+
+      **Alíquota padrão:** **20%** sobre o salário de contribuição
+      - Mínimo: 20% × R$ 1.412 = **R$ 282,40/mês**
+      - Máximo: 20% × R$ 7.786,02 = **R$ 1.557,20/mês**
+
+      **Plano Simplificado (11%):** só garante aposentadoria por idade (não por tempo de contribuição)
+      - Recomendado para quem não tem carteira assinada
+
+      **MEI:** paga apenas **5%** do salário mínimo = ~R$ 70,60/mês
+      - Mas dá direito a aposentadoria por idade, auxílio-doença e salário-maternidade
+
+      📌 Pague via GPS (Guia da Previdência Social) até dia 15 do mês seguinte.

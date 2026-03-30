@@ -1,0 +1,93 @@
+bot_id: uz-accountant
+name: SoliqBot
+tagline: "Sun'iy intellekt bilan soliq va buxgalteriya maslahat"
+
+country:
+  code: UZ
+  name: O'zbekiston
+  language: uz
+  timezone: Asia/Tashkent
+  currency: UZS
+
+niche:
+  type: accountant
+  category: finance
+  requires_disclaimer: true
+  disclaimer_type: financial_not_advice
+
+llm:
+  free_tier: gemini-2.0-flash
+  paid_tier: gpt-4o-mini
+  fallback: ollama/llama3.2:3b
+  max_context_tokens: 4096
+  temperature: 0.2
+  knowledge_base: knowledge/
+
+pricing:
+  free:
+    questions_per_day: 5
+    features:
+      - basic_answers
+  basic:
+    price_usd: 7.0
+    price_local: 87500
+    questions_per_day: 40
+    features:
+      - basic_answers
+      - chat_history
+      - tax_calculations
+  pro:
+    price_usd: 15.0
+    price_local: 187500
+    questions_per_day: unlimited
+    features:
+      - all
+
+payment:
+  stripe: false
+  local_providers:
+    - payme
+    - click
+    - uzum
+  telegram_stars: true
+
+telegram:
+  bot_token: "${UZ_ACCOUNTANT_BOT_TOKEN}"
+  bot_username: SoliqBot_uz
+  welcome_message: |
+    🇺🇿 Assalomu alaykum! Men SoliqBot — sun'iy intellekt yordamida soliq va buxgalteriya maslahat beraman.
+
+    Yordam bera olaman:
+    💼 Yakka tartibli tadbirkorlar (YT) va MChJ soliqları
+    📊 НДФЛ (daromad solig'i), ҚҚС (QQS) hisob-kitobi
+    🧾 Soliq hisobotlari va muddatlar
+    💰 Ish haqi va ijtimoiy to'lovlar
+    📅 Soliq kalendari — muhim sanalar
+
+    ⚠️ Ma'lumot maqsadida — rasmiy hisobotlar uchun kasbiy buxgalterga murojaat qiling.
+
+    Savolingizni yozing! 👇
+
+website:
+  domain: soliqbot.uz
+  template: chat-landing
+  primary_color: "#0d6efd"
+  logo: assets/soliqbot-logo.svg
+
+seo:
+  title: "SoliqBot — O'zbekistonda AI soliq maslahat | YT, MChJ, QQS"
+  description: "Sun'iy intellekt bilan soliq va buxgalteriya maslahat oling. YT, MChJ, НДФЛ, QQS, ish haqi. Bepul."
+  keywords:
+    - soliq maslahat uzbekiston
+    - buxgalter ai
+    - yt soliq
+    - mchj soliq
+    - qqs hisoblash uzbekiston
+
+marketing:
+  target_groups:
+    - "telegram: tadbirkorlar o'zbekiston, buxgalterlar guruhi"
+    - "facebook: kichik biznes o'zbekiston"
+  launch_offer: "7 kun bepul Basic tarif"
+
+disclaimer: "💰 Diqqat: Men soliq va buxgalteriya bo'yicha ma'lumot beruvchi AI yordamchisiman. Javoblarim umumiy ma'lumot uchun bo'lib, rasmiy soliq hisobotlari uchun kasbiy buxgalterga yoki Soliq xizmatiga murojaat qiling."

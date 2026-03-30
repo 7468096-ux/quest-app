@@ -1,0 +1,93 @@
+bot_id: br-accountant
+name: ContaIA
+tagline: "Seu assistente contábil com inteligência artificial"
+
+country:
+  code: BR
+  name: Brasil
+  language: pt-BR
+  timezone: America/Sao_Paulo
+  currency: BRL
+
+niche:
+  type: accountant
+  category: finance
+  requires_disclaimer: true
+  disclaimer_type: financial_not_advice
+
+llm:
+  free_tier: gemini-2.0-flash
+  paid_tier: gpt-4o-mini
+  fallback: ollama/llama3.2:3b
+  max_context_tokens: 4096
+  temperature: 0.2
+  knowledge_base: knowledge/
+
+pricing:
+  free:
+    questions_per_day: 5
+    features:
+      - basic_answers
+  basic:
+    price_usd: 9.0
+    price_local: 45
+    questions_per_day: 40
+    features:
+      - basic_answers
+      - chat_history
+      - tax_calculations
+  pro:
+    price_usd: 19.0
+    price_local: 95
+    questions_per_day: unlimited
+    features:
+      - all
+
+payment:
+  stripe: true
+  local_providers:
+    - mercado_pago
+    - pix
+  telegram_stars: true
+
+telegram:
+  bot_token: "${BR_ACCOUNTANT_BOT_TOKEN}"
+  bot_username: ContaIA_bot
+  welcome_message: |
+    🇧🇷 Olá! Eu sou o ContaIA, seu assistente contábil com inteligência artificial!
+
+    Posso ajudar com:
+    💼 MEI, Simples Nacional, Lucro Presumido
+    📊 IRPF — declaração de imposto de renda
+    🧾 Notas fiscais, obrigações acessórias
+    📅 Calendário fiscal — prazos e vencimentos
+    💰 INSS, FGTS, tributos trabalhistas
+
+    ⚠️ Informações gerais — para declarações fiscais complexas, consulte um contador credenciado ao CRC.
+
+    Qual é a sua dúvida? 👇
+
+website:
+  domain: contaia.com.br
+  template: chat-landing
+  primary_color: "#1d4ed8"
+  logo: assets/contaia-logo.svg
+
+seo:
+  title: "ContaIA — Assistente Contábil com IA | Imposto de Renda, MEI, Simples Nacional"
+  description: "Tire dúvidas sobre imposto de renda, MEI, Simples Nacional, INSS e muito mais com inteligência artificial. Gratuito."
+  keywords:
+    - contador ia
+    - imposto de renda ia
+    - mei simples nacional
+    - declaracao ir online
+    - contabilidade ia brasil
+
+marketing:
+  target_groups:
+    - "telegram: grupos de empreendedores brasil"
+    - "facebook: MEI e microempresários"
+    - "reddit: r/empreendedorismo, r/financas"
+  launch_offer: "7 dias grátis do plano Basic"
+
+disclaimer: "💰 Aviso: Sou uma IA informativa sobre contabilidade e impostos. Minhas respostas são educativas e NÃO substituem serviços de um contador registrado no CRC. Para declarações oficiais, contrate um profissional habilitado."

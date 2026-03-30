@@ -1,0 +1,157 @@
+bot_id: co-lawyer
+language: es-CO
+faqs:
+  - id: despido_sin_justa_causa
+    question: "Me despidieron sin justa causa. ¿Cuánto me deben pagar?"
+    answer: |
+      🔴 Si lo despidieron sin justa causa, tiene derecho a una **liquidación completa** que incluye:
+
+      1. **Indemnización por despido injusto** (art. 64 CST):
+         - Salario ≤ 10 SMMLV: **30 días** de salario por el primer año + **20 días** por cada año adicional
+         - Salario > 10 SMMLV: **20 días** por el primer año + **15 días** por cada año adicional
+         *(Salario mínimo 2025: $1.423.500 COP)*
+
+      2. **Prestaciones sociales obligatorias:**
+         - **Cesantías**: 1 mes de salario por año trabajado (proporcional)
+         - **Intereses sobre cesantías**: 12% anual sobre el saldo
+         - **Prima de servicios**: 1 mes de salario por año (pagada en junio y diciembre)
+         - **Vacaciones**: 15 días hábiles por año trabajado (proporcional si no se gozaron)
+
+      3. **Auxilio de transporte** (si salario ≤ 2 SMMLV): $174.886 COP/mes (2025)
+
+      **Pasos a seguir:**
+      1. Exija la carta de despido con fecha y firma del empleador
+      2. Solicite la liquidación en los 15 días siguientes al despido
+      3. Si no paga → acuda a la **Inspección de Trabajo** más cercana (gratuito)
+      4. También puede interponer **demanda ordinaria laboral** ante un Juez Laboral
+
+      ⚠️ Tiene **3 años** para reclamar prestaciones laborales (prescripción).
+
+  - id: liquidacion_prestaciones
+    question: "¿Qué son las cesantías y cómo las reclamo?"
+    answer: |
+      💰 Las **cesantías** son una prestación social obligatoria equivalente a **1 mes de salario por año trabajado**.
+
+      **¿Cómo funciona el sistema?**
+      - Cada año, antes del **14 de febrero**, el empleador debe consignar las cesantías en el fondo que usted eligió (Porvenir, Protección, Old Mutual, etc.)
+      - Si el empleador NO consigna a tiempo → paga una **sanción de 1 día de salario por día de mora**
+
+      **¿Para qué puede usar sus cesantías (sin perder el empleo)?**
+      - Compra, mejora o liberación de vivienda
+      - Pago de educación superior (suya o de sus hijos)
+      - En caso de desempleo o terminación del contrato
+
+      **¿Cómo retirarlas al terminar el contrato?**
+      1. El empleador le entrega el formulario de retiro
+      2. Usted lo firma y lo presenta al fondo de cesantías
+      3. El fondo tiene **5 días hábiles** para hacer el pago
+
+      **Si el empleador nunca consignó (cesantías retroactivas - contratos anteriores a 1990):**
+      - Las paga directamente al terminar el contrato
+      - Consulte con un abogado o la Inspección de Trabajo
+
+      🏦 Consulte el saldo de sus cesantías en la app o página web de su fondo.
+
+  - id: garantia_producto_defectuoso
+    question: "Compré un producto y salió malo. ¿Qué garantía tengo?"
+    answer: |
+      🛡️ La **Ley 1480 de 2011 (Estatuto del Consumidor)** lo protege:
+
+      **Garantía legal mínima (art. 7-8):**
+      - **1 año** para bienes nuevos (electrodomésticos, ropa, calzado, etc.)
+      - **6 meses** para bienes usados (si se pactó garantía)
+      - Los fabricantes e importadores pueden otorgar garantías más largas
+
+      **Sus opciones ante un producto defectuoso (art. 11):**
+      1. ✅ **Reparación gratuita** del defecto
+      2. 🔄 **Cambio del producto** por uno de igual o superior calidad
+      3. 💰 **Devolución del dinero pagado**
+
+      **Derecho de retracto (compras a distancia - art. 47):**
+      - Tiene **5 días hábiles** para devolver productos comprados por internet, teléfono o catálogo
+      - Sin necesidad de explicar por qué — ¡le devuelven el dinero!
+
+      **Pasos a seguir:**
+      1. Reclame por escrito al vendedor (guarde el comprobante, screenshot o correo)
+      2. Si no responden en plazo razonable (máx. 15 días hábiles) → SIC
+      3. Denuncie en: https://www.sic.gov.co o llame al **01800-910165** (gratuito)
+      4. También puede interponer una **acción de protección al consumidor** ante la SIC
+
+  - id: contrato_arrendamiento
+    question: "¿Cuánto puede subir el arriendo y cómo me puedo defender si me quieren desalojar?"
+    answer: |
+      🏠 El arrendamiento urbano en Colombia está regulado por la **Ley 820 de 2003**:
+
+      **Incremento anual del canon:**
+      - Máximo el **IPC del año anterior** (Índice de Precios al Consumidor)
+      - 2024→2025: IPC 2024 fue ~5,2% → ese es el tope de incremento
+      - El arrendador DEBE notificarle con **3 meses de anticipación** antes de aumentar
+      - Si sube más del IPC → puede negarse a pagar el exceso y denunciar
+
+      **Terminación del contrato:**
+      - **Por el arrendador (sin causa)**: preaviso de **3 meses** + pagar indemnización de **3 meses de canon**
+      - **Con justa causa** (mora de 2+ meses, subarriendo sin permiso, daños al inmueble): proceso de restitución
+      - **Por el arrendatario**: preaviso de **3 meses** o paga indemnización equivalente
+
+      **Proceso de desalojo (restitución de inmueble):**
+      1. El arrendador notifica mora o causal
+      2. Si no desocupa → demanda ante Juez Civil Municipal
+      3. Plazo del proceso: aprox. **3-6 meses**
+      4. NADIE puede sacarle a la fuerza sin orden judicial — eso es delito
+
+      **Si el arrendador viola sus derechos:**
+      - Acuda a la **Secretaría del Hábitat** (Bogotá) o Secretaría de Vivienda local
+      - Puede interponer **tutela** si le cortan servicios públicos ilegalmente
+
+  - id: tutela_derechos
+    question: "¿Qué es una tutela y cuándo puedo presentarla?"
+    answer: |
+      📋 La **acción de tutela** (art. 86 Constitución Política) es el mecanismo más poderoso para proteger sus derechos fundamentales en Colombia.
+
+      **¿Cuándo usarla?**
+      - Una entidad (pública o privada) vulnera o amenaza un **derecho fundamental** como:
+        - Salud (EPS no autoriza procedimiento urgente)
+        - Educación (colegio niega cupo injustificadamente)
+        - Trabajo (despido discriminatorio)
+        - Vivienda digna, alimentación, vida
+
+      **Características clave:**
+      - **Gratuita** — no necesita abogado (aunque puede tenerlo)
+      - **Rápida**: el juez tiene **10 días calendario** para responder
+      - **Efectiva**: si la conceden, la entidad debe cumplir de inmediato
+
+      **¿Cómo presentarla?**
+      1. Vaya a cualquier **Juzgado** (civil, penal, laboral, familia — cualquiera recibe tutelas)
+      2. O presente en línea: https://procesal.ramajudicial.gov.co
+      3. Describa el hecho, el derecho vulnerado y lo que pide
+      4. Adjunte documentos que soporten (cartas, negativas, correos)
+
+      **Impugnación:**
+      - Si la niegan, tiene **3 días hábiles** para impugnar ante el superior jerárquico
+
+      💡 En las **Casas de Justicia** le ayudan a redactar la tutela gratis.
+
+  - id: derechos_consumidor_servicios
+    question: "El banco o la empresa de telefonía me cobró algo que no autoricé. ¿Qué hago?"
+    answer: |
+      📱💳 Si una empresa le cobró un cargo no autorizado, tiene varias vías:
+
+      **Paso 1: Reclamo directo (PQRS)**
+      - Presente una **Petición, Queja o Reclamo (PQR)** por escrito ante la empresa
+      - Guarde el número de radicado y la fecha
+      - La empresa tiene **15 días hábiles** para responder (Ley 1480 art. 56)
+
+      **Paso 2: Si no responden o niegan sin razón:**
+
+      🏦 **Servicios financieros (banco, tarjeta, crédito):**
+      - Acuda al **Defensor del Consumidor Financiero** de su entidad (gratuito, obliga resolución en 8 días hábiles)
+      - O presente queja ante la **Superintendencia Financiera**: https://www.superfinanciera.gov.co | Línea 01800-112100
+
+      📡 **Telefonía e internet:**
+      - Acuda a la **SIC** (Superintendencia de Industria y Comercio): https://www.sic.gov.co
+      - O a la **CRC** (Comisión de Regulación de Comunicaciones): https://www.crcom.gov.co
+
+      **Recuerde:**
+      - Pida **reverso del cobro** junto con la queja — muchas veces lo hacen de inmediato para evitar el proceso
+      - Guarde TODOS los comprobantes, pantallazos y correos
+      - Si el monto es significativo → también puede acudir al Juez de Pequeñas Causas (hasta 40 SMMLV sin abogado)

@@ -1,0 +1,238 @@
+bot_id: mx-accountant
+language: es-MX
+faq:
+  - id: resico_que_es
+    question: "¿Qué es el RESICO y cómo funciona?"
+    keywords:
+      - resico
+      - régimen simplificado
+      - régimen simplificado de confianza
+      - resico personas fisicas
+    answer: |
+      📋 **RESICO (Régimen Simplificado de Confianza)** es un régimen fiscal para personas físicas con ingresos hasta **$3.5 millones de pesos anuales**.
+
+      **Características principales:**
+      - 💰 Tasa de ISR muy baja: **1% a 2.5%** sobre ingresos totales (sin deducciones)
+      - 📅 Pago mensual definitivo — no hay declaración anual (salvo excepciones)
+      - 🧾 Obligatorio emitir CFDI por todas las operaciones
+      - ✅ Pueden acceder: comerciantes, profesionistas independientes, arrendadores, etc.
+
+      **¿Quiénes NO pueden estar en RESICO?**
+      - Socios o accionistas de personas morales
+      - Quienes perciben salarios como actividad principal
+      - Contribuyentes con ingresos >$3.5M al año
+      - Los que realizan actividades agrícolas (tienen su propio régimen)
+
+      **Cálculo simplificado:**
+      Ingresos del mes × tasa RESICO = ISR a pagar
+
+      Las tasas van de 1% (hasta ~$25,000/mes) hasta 2.5% (cerca del límite de $291,666/mes).
+
+      💰 *Para saber si RESICO te conviene vs. otros regímenes, consulta a un Contador Público Certificado.*
+
+  - id: cfdi_cancelar
+    question: "¿Cómo cancelo una factura CFDI?"
+    keywords:
+      - cancelar factura
+      - cancelacion cfdi
+      - cancelar cfdi
+      - factura cancelada
+    answer: |
+      🧾 **Cancelación de CFDI** — proceso y reglas:
+
+      **¿Cuándo puedes cancelar?**
+      - Error en datos del receptor (RFC, nombre, dirección)
+      - Error en importe o descripción
+      - Devolución de mercancía o servicio no prestado
+
+      **Métodos de cancelación:**
+      1. **Con aceptación del receptor** (regla general)
+         - El SAT notifica al receptor por buzón tributario
+         - El receptor tiene 72 horas para aceptar o rechazar
+         - Si no responde en 72h → se cancela automáticamente
+
+      2. **Sin aceptación** (casos especiales):
+         - CFDI con error en RFC del receptor
+         - El receptor es público en general
+         - El CFDI fue emitido hace más de 72h pero aplica cancelación directa según monto
+
+      **Plazos importantes:**
+      - CFDIs del ejercicio en curso → puedes cancelarlos hasta el 31 de enero del siguiente año
+      - CFDIs de ejercicios anteriores → proceso especial, solo en casos justificados
+
+      **¿Cómo cancelar?**
+      - Desde tu portal del SAT (Factura.sat.gob.mx)
+      - Desde tu sistema de facturación (Contpaqi, Facturapi, etc.)
+      - Mediante el Servicio Web del SAT (para sistemas propios)
+
+      💰 *Si tienes dudas sobre cancelaciones que afectan tu contabilidad, consulta a un contador.*
+
+  - id: declaracion_anual_fisica
+    question: "¿Cuándo y cómo hago mi declaración anual?"
+    keywords:
+      - declaracion anual
+      - declaración anual
+      - declaracion anual persona fisica
+      - cuando declarar
+      - abril sat
+    answer: |
+      📊 **Declaración Anual de Personas Físicas**
+
+      **Plazo:**
+      - Personas físicas: **1 al 30 de abril** del año siguiente
+      - Ej: Declaración 2025 → se presenta en abril 2026
+
+      **¿Quiénes DEBEN presentarla?**
+      - 👤 Actividad empresarial o profesional (honorarios)
+      - 🏠 Arrendamiento de inmuebles
+      - 💹 Enajenación de bienes (venta de casa, auto, acciones)
+      - 🌍 Ingresos del extranjero
+      - 💼 Dos o más empleadores en el mismo año
+      - 🏦 Ingresos por intereses >$100,000
+
+      **¿Quiénes NO necesitan presentarla (si solo tienen sueldos)?**
+      - Un solo patrón, ingresos ≤$400,000 anuales
+      - Sin otros ingresos adicionales
+
+      **Deducciones personales permitidas:**
+      - 🏥 Honorarios médicos (sin límite, con CFDI)
+      - 🦷 Dentistas, ópticas, psicólogos (con CFDI)
+      - 📚 Colegiaturas (según nivel educativo: hasta $14,200 preparatoria)
+      - 🏠 Intereses hipotecarios reales (con constancia del banco)
+      - 🎗️ Donativos a instituciones autorizadas (hasta 7% del ingreso)
+      - 💊 Primas de seguros de gastos médicos mayores
+      - **Límite total**: el menor entre 15% del ingreso o $203,217
+
+      **¿Cómo presentarla?**
+      1. Entra a sat.gob.mx → Mi Portal → Declaraciones → Anual
+      2. El SAT precarga muchos datos automáticamente
+      3. Verifica, agrega lo que falte y envía
+
+      💰 *Si tienes ingresos de múltiples fuentes o quieres maximizar deducciones, un CPC puede ayudarte a optimizar tu declaración.*
+
+  - id: alta_rfc
+    question: "¿Cómo me doy de alta en el RFC?"
+    keywords:
+      - alta rfc
+      - registro rfc
+      - como obtener rfc
+      - tramite rfc
+      - inscripcion sat
+    answer: |
+      📋 **Alta en el RFC (Registro Federal de Contribuyentes)**
+
+      **Personas físicas — pasos:**
+
+      **Opción 1: En línea (más rápido)**
+      1. Entra a sat.gob.mx → "RFC — Inscripción al RFC"
+      2. Llena tus datos: CURP, nombre completo, actividad económica, domicilio
+      3. Descarga tu constancia de situación fiscal
+      4. ⚠️ Para obtener e.firma y CSD, necesitas ir presencialmente
+
+      **Opción 2: En el SAT (presencial)**
+      1. Agenda cita en citas.sat.gob.mx
+      2. Lleva: CURP, identificación oficial (INE/pasaporte), comprobante de domicilio
+      3. Te asignan RFC en el momento
+      4. Te dan tu e.firma y CSD el mismo día
+
+      **Personas morales (empresas):**
+      - Necesitas escritura constitutiva ante notario público
+      - El notario puede darte de alta en el RFC
+      - O acude al SAT con escritura + representante legal
+
+      **¿Cuándo darte de alta?**
+      - Antes de iniciar actividades empresariales
+      - Cuando empiezas a facturar o emitir recibos
+      - Si vas a recibir ingresos superiores a $400,000/año
+
+      **Actividades económicas más comunes:**
+      - Servicios profesionales (honorarios)
+      - Comercio en general
+      - Plataformas digitales (Uber, Airbnb, Rappi)
+      - Arrendamiento de inmuebles
+
+      📌 *El RFC es gratuito. Desconfía de servicios que cobren por tramitarlo.*
+
+  - id: iva_como_funciona
+    question: "¿Cómo funciona el IVA en México?"
+    keywords:
+      - iva
+      - impuesto al valor agregado
+      - iva 16
+      - iva frontera
+      - iva exento
+    answer: |
+      💰 **IVA (Impuesto al Valor Agregado) en México**
+
+      **Tasas vigentes:**
+      - 🏢 **16%** — tasa general (mayoría de bienes y servicios)
+      - 🌵 **8%** — franja fronteriza norte (Baja California, Sonora frontera, etc.) y sur (Chetumal)
+      - 🍎 **0%** — alimentos no procesados, medicamentos, agua potable
+      - ⛔ **Exento** — servicios educativos, seguros de vida, transporte público
+
+      **¿Cómo funciona para un negocio?**
+      - **IVA trasladado**: el que cobras a tus clientes (ingresos)
+      - **IVA acreditable**: el que pagas a tus proveedores (gastos con factura)
+      - **IVA a pagar** = IVA trasladado − IVA acreditable
+
+      **Ejemplo práctico:**
+      - Vendes por $10,000 → cobras $1,600 de IVA
+      - Compraste insumos por $5,000 + $800 IVA
+      - Pagas al SAT: $1,600 − $800 = **$800**
+
+      **Declaración de IVA:**
+      - Se presenta **mensualmente** (a más tardar día 17 del mes siguiente)
+      - Junto con tu declaración provisional de ISR
+      - En RESICO personas físicas: el IVA se paga igual, mensualmente
+
+      **Saldo a favor de IVA:**
+      - Si gastas más IVA del que cobras → tienes saldo a favor
+      - Puedes solicitar devolución al SAT (proceso de 40-90 días)
+      - O acreditarlo en meses siguientes
+
+      💰 *Si tienes operaciones mixtas (gravadas y exentas), el cálculo de IVA acreditable es proporcional — consulta a un contador.*
+
+  - id: nómina_obligaciones
+    question: "¿Cuáles son mis obligaciones de nómina como patrón?"
+    keywords:
+      - nomina
+      - nómina
+      - patron
+      - patrón
+      - imss trabajadores
+      - obligaciones patron
+      - contratar empleado
+    answer: |
+      🏢 **Obligaciones del patrón al contratar trabajadores**
+
+      **Al contratar (desde el primer día):**
+      1. 📋 Dar de alta al trabajador en el **IMSS** (antes o el mismo día de inicio)
+      2. 📄 Contrato laboral firmado (mínimo 30 días antes del periodo de prueba)
+      3. 💳 Apertura de cuenta bancaria para nómina (o efectivo si <$1,500/mes)
+
+      **Cuotas IMSS (aproximadas, cambian con el salario):**
+      - Patrón: ~25-30% del Salario Base de Cotización (SBC)
+      - Trabajador: ~3% del SBC
+      - Incluye: enfermedad, maternidad, invalidez, vejez, guarderías, etc.
+
+      **INFONAVIT:**
+      - Patrón aporta 5% del SBC mensualmente
+      - Va al fondo de vivienda del trabajador
+
+      **CFDI de nómina:**
+      - Obligatorio emitir recibo de nómina (CFDI 4.0 con complemento de nómina)
+      - Cada quincena o semana según el periodo de pago
+      - Deducible para el patrón solo si se emite correctamente
+
+      **ISR en nómina:**
+      - El patrón retiene y entera el ISR del trabajador
+      - Se calcula según tabla de ISR mensual del SAT
+      - Si el trabajador gana poco → puede tener subsidio al empleo (devolución)
+
+      **Prestaciones mínimas de Ley:**
+      - Vacaciones: 12 días al primer año, +2 días cada año (hasta 20)
+      - Prima vacacional: 25% del salario durante vacaciones
+      - Aguinaldo: 15 días de salario en diciembre
+      - PTU: 10% de la utilidad fiscal repartida en mayo
+
+      📌 *El incumplimiento de obligaciones patronales puede resultar en multas del IMSS e INFONAVIT. Asesórate con un contador especializado en nómina.*

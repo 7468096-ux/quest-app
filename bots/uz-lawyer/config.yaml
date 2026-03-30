@@ -1,0 +1,81 @@
+bot_id: uz-lawyer
+name: HukuqBot
+tagline: "Sun'iy intellekt bilan yuridik maslahat"
+
+country:
+  code: UZ
+  name: O'zbekiston
+  language: uz
+  timezone: Asia/Tashkent
+  currency: UZS
+
+niche:
+  type: lawyer
+  category: legal
+  requires_disclaimer: true
+  disclaimer_type: legal_not_advice
+
+llm:
+  free_tier: gemini-2.0-flash
+  paid_tier: gpt-4o-mini
+  fallback: ollama/llama3.2:3b
+  max_context_tokens: 4096
+  temperature: 0.3
+  knowledge_base: knowledge/
+
+pricing:
+  free:
+    questions_per_day: 3
+    features:
+    - basic_answers
+  basic:
+    price_usd: 7.0
+    price_local: 87500
+    questions_per_day: 30
+    features:
+    - basic_answers
+    - chat_history
+  pro:
+    price_usd: 15.0
+    price_local: 187500
+    questions_per_day: unlimited
+    features:
+    - all
+
+payment:
+  stripe: false
+  local_providers:
+  - payme
+  - click
+  telegram_stars: true
+
+telegram:
+  bot_token: "${UZ_LAWYER_BOT_TOKEN}"
+  bot_username: HukuqBot
+  welcome_message: |
+    🇺🇿 Assalomu alaykum! Men HukuqBot — sun'iy intellekt yordamida yuridik maslahat beraman.
+    Fuqarolik, mehnat va iste'molchi huquqlari bo'yicha savollaringizga javob beraman.
+
+    ⚖️ Muhim: Men yurist emas. Javoblarim ma'lumot maqsadida bo'lib, professional huquqiy maslahat o'rnini bosa olmaydi.
+
+    Savolingizni yozing! 👇
+
+website:
+  domain: hukuqbot.uz
+  template: chat-landing
+  primary_color: "#1a8547"
+  logo: assets/hukuqbot-logo.svg
+
+seo:
+  title: "HukuqBot — O'zbekistonda AI yuridik maslahat"
+  description: "Sun'iy intellekt yordamida yuridik maslahat oling. Fuqarolik, mehnat, iste'molchi huquqlari. Bepul."
+  keywords:
+  - yurist maslahat
+  - huquqiy yordam uzbekiston
+  - ai lawyer uzbekistan
+
+marketing:
+  target_groups:
+  - "telegram: yuridik guruhlar o'zbekiston"
+  - "facebook: tadbirkorlar o'zbekiston"
+  launch_offer: "7 kun bepul Basic tarif"

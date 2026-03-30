@@ -1,0 +1,118 @@
+faqs:
+  - question: "¿Cómo funciona el COMIPEMS?"
+    answer: |
+      🎓 **COMIPEMS — Todo lo que necesitas saber**
+
+      El COMIPEMS (Concurso de Ingreso al Nivel Medio Superior) es el examen para entrar a prepa pública en la CDMX y zona metropolitana.
+
+      **Datos clave:**
+      - **Fecha:** generalmente en junio cada año
+      - **Duración:** 128 preguntas de opción múltiple (3 horas)
+      - **Áreas:** Matemáticas, Español, Historia, Geografía, Ciencias Naturales, Habilidad Verbal
+      - **Puntaje:** 0 a 128 puntos (1 punto por respuesta correcta, sin penalización)
+
+      **Sistema de asignación:**
+      - Eliges hasta 20 opciones de plantel en orden de preferencia
+      - Te asignan al plantel más alto posible según tu puntaje
+      - Mayor puntaje = mejores opciones (CCH y ENP requieren ~90+ puntos)
+
+      **Consejo:** ¡Practica con exámenes anteriores! Los últimos 5 años de exámenes están disponibles en guía COMIPEMS.
+
+  - question: "¿Cuánto es 30% de 450?"
+    answer: |
+      🔢 **Cálculo de porcentajes**
+
+      **Método:** porcentaje × número / 100
+
+      30% de 450 = 30 × 450 / 100 = 13,500 / 100 = **135**
+
+      **Truco mental para COMIPEMS:**
+      - 10% de 450 = 45 (mueve el punto decimal un lugar)
+      - 30% = 3 × 10% = 3 × 45 = **135** ✅
+
+      **Fórmula general:**
+      - x% de N = (x × N) / 100
+      - ¿Qué % es A de B? = (A × 100) / B
+
+  - question: "Explica la Revolución Mexicana para el examen"
+    answer: |
+      🇲🇽 **Revolución Mexicana (1910-1917)**
+
+      **Causas:**
+      - Dictadura de Porfirio Díaz (30+ años = "Porfiriato")
+      - Concentración de tierra en hacendados (95% de campesinos sin tierra)
+      - Desigualdad extrema y represión política
+
+      **Personajes clave:**
+      | Personaje | Representaba | Frase/Plan |
+      |-----------|-------------|------------|
+      | Francisco I. Madero | Clases medias/democracia | Plan de San Luis |
+      | Emiliano Zapata | Campesinos del sur | "Tierra y Libertad" / Plan de Ayala |
+      | Francisco Villa | Campesinos del norte | División del Norte |
+      | Venustiano Carranza | Constitucionalistas | Plan de Guadalupe |
+
+      **Resultado:** Constitución de 1917 — primera constitución social del mundo (Art. 3 educación, Art. 27 tierra, Art. 123 trabajo)
+
+      **Mnemotecnia:** "Mad Zap Villa Carr" = Madero, Zapata, Villa, Carranza
+
+  - question: "¿Qué es la célula y cuáles son sus partes?"
+    answer: |
+      🔬 **La Célula — Unidad básica de la vida**
+
+      **Tipos de células:**
+      - **Procariota:** sin núcleo definido (bacterias)
+      - **Eucariota:** con núcleo definido (animales, plantas, hongos)
+
+      **Organelos principales:**
+
+      | Organelo | Función |
+      |----------|---------|
+      | Núcleo | Controla actividad celular, contiene ADN |
+      | Mitocondria | Produce energía (ATP) — "central eléctrica" |
+      | Membrana celular | Regula entrada/salida de sustancias |
+      | Ribosoma | Fabrica proteínas |
+      | Vacuola | Almacena agua y sustancias |
+      | Cloroplasto | Fotosíntesis (SOLO en células vegetales) |
+      | Pared celular | Protección/rigidez (SOLO en células vegetales) |
+
+      **Truco:** Célula vegetal tiene el "Plus Pack": +Cloroplasto, +Pared celular, +Vacuola grande
+
+  - question: "¿Cómo se resuelven ecuaciones de primer grado?"
+    answer: |
+      ➕ **Ecuaciones de Primer Grado**
+
+      **Regla de oro:** lo que hagas de un lado, lo haces del otro.
+
+      **Ejemplo:** 3x + 5 = 20
+
+      1. Pasa el 5 al otro lado (restando): 3x = 20 - 5 = 15
+      2. Divide entre 3: x = 15 ÷ 3 = **5**
+      3. Verificación: 3(5) + 5 = 15 + 5 = 20 ✅
+
+      **Ejemplo con fracciones:** x/2 + 3 = 7
+      1. x/2 = 7 - 3 = 4
+      2. x = 4 × 2 = **8**
+
+      **Tip COMIPEMS:** Siempre verifica tu respuesta sustituyendo en la ecuación original.
+
+  - question: "¿Cuáles son los estados de la materia?"
+    answer: |
+      🧪 **Estados de la Materia**
+
+      **Los 3 principales:**
+
+      | Estado | Forma | Volumen | Ejemplo |
+      |--------|-------|---------|---------|
+      | Sólido | Fija | Fijo | Hielo, roca |
+      | Líquido | Variable (adapta al recipiente) | Fijo | Agua, aceite |
+      | Gas | Variable | Variable | Vapor, aire |
+
+      **Cambios de estado:**
+      - Sólido → Líquido: **Fusión** (se calienta)
+      - Líquido → Gas: **Vaporización/Ebullición** (se calienta)
+      - Gas → Líquido: **Condensación** (se enfría)
+      - Líquido → Sólido: **Solidificación** (se enfría)
+      - Sólido → Gas: **Sublimación** (ej: hielo seco, naftalina)
+      - Gas → Sólido: **Deposición/Sublimación inversa**
+
+      **Dato México:** El agua hierve a ~92°C en la CDMX (altitud 2,240m), no a 100°C. La presión atmosférica es menor en la altura.

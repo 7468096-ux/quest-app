@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+sqlalchemy[asyncio]
+asyncpg
+alembic
+pyyaml
+google-generativeai
+openai
+httpx
+faiss-cpu
+sentence-transformers
+python-jose[cryptography]
+passlib[bcrypt]
+structlog

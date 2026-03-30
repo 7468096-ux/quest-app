@@ -1,0 +1,76 @@
+bot_id: ph-lawyer
+name: AbugadoAI
+tagline: "Your AI Legal Assistant for the Philippines"
+
+country:
+  code: PH
+  name: Philippines
+  language: en-PH
+  timezone: Asia/Manila
+  currency: PHP
+
+niche:
+  type: lawyer
+  category: legal
+  requires_disclaimer: true
+  disclaimer_type: legal_not_advice
+
+llm:
+  free_tier: gemini-2.0-flash
+  paid_tier: gpt-4o-mini
+  fallback: ollama/llama3.2:3b
+  max_context_tokens: 4096
+  temperature: 0.3
+  knowledge_base: "knowledge/"
+
+pricing:
+  free:
+    questions_per_day: 3
+    features: ["basic_answers"]
+  basic:
+    price_usd: 9
+    price_local: 500
+    questions_per_day: 30
+    features: ["basic_answers", "document_templates", "chat_history"]
+  pro:
+    price_usd: 19
+    price_local: 1050
+    questions_per_day: unlimited
+    features: ["all", "document_upload", "priority", "api_access"]
+
+payment:
+  stripe: false
+  local_providers: ["gcash", "maya"]
+  telegram_stars: true
+
+telegram:
+  bot_token: "${PH_LAWYER_BOT_TOKEN}"
+  bot_username: "AbugadoAI_bot"
+  welcome_message: |
+    🇵🇭 Hello! I'm AbugadoAI, your AI-powered legal assistant for the Philippines.
+    I can help you understand Philippine laws covering civil rights, labor,
+    family law, consumer protection, property, and contracts.
+
+    ⚖️ Important: I am an AI, not a licensed attorney (Abogado).
+    My answers are informational only and do not constitute legal advice.
+    For serious matters, please consult an IBP-accredited lawyer.
+
+    Go ahead and ask your legal question! 👇
+
+website:
+  domain: "smarthelp.ai/ph/lawyer"
+  template: "chat-landing"
+  primary_color: "#0038A8"
+  secondary_color: "#CE1126"
+
+seo:
+  title: "AbugadoAI - AI Legal Assistant for the Philippines"
+  description: "Free AI legal assistant for Philippine law. Get instant answers on labor rights, civil code, consumer protection, and family law."
+  keywords: ["ai lawyer philippines", "legal advice philippines", "philippine civil code", "labor code philippines", "legal help ph"]
+
+marketing:
+  target_groups:
+    - "telegram: OFW groups, Philippine legal help groups"
+    - "facebook: OFW communities, Philippine legal aid groups"
+    - "reddit: r/Philippines, r/LegalAdvicePH"
+  launch_offer: "7 days free Basic plan trial"

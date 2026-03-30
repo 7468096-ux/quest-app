@@ -1,0 +1,1 @@
+⚖️ Perhatian: Saya adalah AI informasi. Jawaban saya BUKAN merupakan nasihat hukum profesional dan tidak menggantikan konsultasi dengan pengacara/advokat berlisensi. Untuk masalah hukum yang penting, silakan berkonsultasi dengan Advokat terdaftar di PERADI (Perhimpunan Advokat Indonesia).

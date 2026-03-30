@@ -1,0 +1,146 @@
+bot_id: ar-lawyer
+language: es-AR
+faqs:
+  - id: despido_sin_causa
+    question: "Me despidieron sin causa. ¿Cuánto me tienen que pagar?"
+    answer: |
+      🔴 Si te despidieron sin causa justificada, tenés derecho a:
+
+      1. **Indemnización por antigüedad** (art. 245 LCT):
+         - 1 mes de sueldo por año trabajado (o fracción mayor a 3 meses)
+         - Base: el mejor salario mensual, normal y habitual del último año
+         - Mínimo: 2 meses de salario
+
+      2. **Preaviso** (art. 231 LCT): Si no te avisaron con anticipación:
+         - Menos de 3 meses: 15 días de sueldo
+         - Entre 3 meses y 5 años: 1 mes de sueldo
+         - Más de 5 años: 2 meses de sueldo
+
+      3. **Integración del mes de despido** (art. 233 LCT): Si el despido no fue el último día del mes, te corresponde el resto del mes.
+
+      4. **SAC proporcional** (aguinaldo): La parte del semestre trabajado.
+
+      5. **Vacaciones proporcionales** no gozadas.
+
+      ⚠️ Tenés **30 días** para reclamar el certificado de trabajo ante el Ministerio de Trabajo. Recomendamos mandar un telegrama laboral (gratuito en correos oficiales) exigiendo la liquidación final.
+
+  - id: telegrama_laboral
+    question: "¿Qué es el telegrama laboral y cómo se manda?"
+    answer: |
+      📬 El **telegrama laboral** es una comunicación fehaciente entre trabajador y empleador. Es clave para documentar:
+      - Intimaciones (pedir el alta en AFIP, reclamar pago, etc.)
+      - Rechazo de un despido injustificado
+      - Notificación de enfermedad o accidente
+
+      **Cómo enviarlo GRATIS:**
+      1. Ir a cualquier sucursal del **Correo Argentino** (o Andreani)
+      2. Decir que querés mandar un "telegrama laboral" o "colacionado laboral"
+      3. Llevá tu DNI — el primer telegrama es **gratuito** por ley (Ley 23.789)
+      4. Guardá el duplicado con sello de envío
+
+      También podés usar el sistema online del Ministerio de Trabajo:
+      👉 https://www.trabajo.gob.ar/telegrama
+
+  - id: garantia_producto
+    question: "Compré un producto y falló. ¿Cuál es mi garantía?"
+    answer: |
+      🛡️ La **Ley de Defensa del Consumidor (24.240)** te protege:
+
+      **Garantía legal mínima:**
+      - **6 meses** para bienes muebles (electrodomésticos, ropa, calzado)
+      - **3 años** para inmuebles (construcción defectuosa)
+
+      **Tus opciones ante un producto defectuoso (art. 17):**
+      1. ✅ **Reparación gratuita** del producto
+      2. 🔄 **Reemplazo** por uno nuevo de igual modelo
+      3. 💰 **Devolución del dinero** (rescisión del contrato)
+      4. 📉 **Quita proporcional del precio**
+
+      **Pasos a seguir:**
+      1. Reclamá por escrito al vendedor (guardar comprobante)
+      2. Si no te responden en plazo razonable → Defensa del Consumidor
+      3. Podés denunciar online: https://www.argentina.gob.ar/defensadelconsumidor
+      4. Llamada gratuita: **0800-666-1518**
+
+      💡 El plazo de garantía se **suspende** durante el tiempo que el producto estuvo en reparación.
+
+  - id: alquiler_desalojo
+    question: "Mi inquilino no paga hace 2 meses. ¿Cómo hago el desalojo?"
+    answer: |
+      🏠 El proceso de desalojo en Argentina según la **Ley de Alquileres (27.737)** y el Código Procesal:
+
+      **Paso 1: Intimación fehaciente**
+      - Mandá un telegrama colacionado exigiendo el pago en 10 días hábiles
+      - Especificá montos adeudados y plazos
+
+      **Paso 2: Si no paga → Mediación obligatoria**
+      - En casi todas las provincias, antes de ir a juicio hay mediación
+      - Se solicita en el Centro de Mediación del Fuero Civil
+
+      **Paso 3: Juicio de desalojo**
+      - Se inicia con un abogado en el fuero civil de tu jurisdicción
+      - Procedimiento "especial" de desalojo: más rápido que el ordinario
+      - Plazo aproximado: 3-6 meses hasta la desocupación efectiva
+
+      **Importante:**
+      - **No podés cortar servicios** (luz, agua, gas) para presionar al inquilino — es delito
+      - **No podés cambiar cerraduras** sin orden judicial
+      - Los contratos de alquiler tienen **duración mínima de 2 años** (art. 1198 CCyCN)
+
+      Consultá un abogado especializado para que inicie el proceso judicial.
+
+  - id: accidente_trabajo
+    question: "Tuve un accidente de trabajo. ¿Qué hago?"
+    answer: |
+      🚑 Si sufriste un accidente laboral, seguí estos pasos:
+
+      **Inmediatamente:**
+      1. Avisá a tu empleador (en persona y por escrito si podés)
+      2. Pedí atención médica en la **ART** (Aseguradora de Riesgos del Trabajo) de tu empresa
+      3. No firmes nada sin leer; no aceptes "el alta médica" si seguís con dolores
+
+      **Tus derechos con la ART (Ley 24.557):**
+      - Atención médica completa y gratuita
+      - Medicamentos y rehabilitación
+      - Prestaciones dinerarias si quedás con incapacidad:
+        - Incapacidad laboral temporaria (ILT): 100% del sueldo
+        - Incapacidad permanente parcial (IPP): indemnización según porcentaje
+        - Gran invalidez: prestación mayor + asistencia
+
+      **Si la ART no te atiende:**
+      - Denunciá ante la **SRT** (Superintendencia de Riesgos del Trabajo):
+        👉 https://www.srt.gob.ar | Tel: 0800-666-6778
+
+      ⚠️ Tenés **2 años** para reclamar judicialmente desde el accidente.
+
+  - id: divorcio_argentina
+    question: "¿Cómo me divorcio en Argentina? ¿Cuánto tarda?"
+    answer: |
+      💔 Desde 2015, Argentina tiene **divorcio express o incausado** (art. 437 CCyCN) — no hay que probar causales:
+
+      **Tipos de divorcio:**
+
+      🤝 **De mutuo acuerdo (más rápido)**
+      - Ambos acuerdan
+      - Presentan convenio regulador (bienes, hijos, alimentos)
+      - Con un abogado (pueden compartir uno) ante el juez
+      - Plazo: **1 a 3 meses**
+
+      ⚡ **Unilateral (un cónyuge lo pide)**
+      - No necesita acuerdo del otro
+      - El juez igual decide sobre bienes e hijos
+      - Plazo: **3 a 6 meses** (puede ser más si hay conflictos)
+
+      **Proceso básico:**
+      1. Contratar abogado/a de familia (o compartir uno si hay acuerdo)
+      2. Presentar demanda + convenio regulador en el Juzgado de Familia
+      3. Audiencia con el juez
+      4. Sentencia de divorcio
+
+      **Temas conexos que se resuelven:**
+      - División de bienes (según régimen patrimonial: comunidad o separación)
+      - Tenencia y cuidado de hijos menores
+      - Cuota alimentaria
+      - Derecho de comunicación (visitas)
+
+      Consultá el **Registro Civil** de tu provincia para requisitos específicos.

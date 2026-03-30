@@ -1,0 +1,95 @@
+bot_id: mx-accountant
+name: ContadorIA
+tagline: "Tu asistente contable con inteligencia artificial para México"
+
+country:
+  code: MX
+  name: México
+  language: es-MX
+  timezone: America/Mexico_City
+  currency: MXN
+
+niche:
+  type: accountant
+  category: finance
+  requires_disclaimer: true
+  disclaimer_type: financial_not_advice
+
+llm:
+  free_tier: gemini-2.0-flash
+  paid_tier: gpt-4o-mini
+  fallback: ollama/llama3.2:3b
+  max_context_tokens: 4096
+  temperature: 0.2
+  knowledge_base: knowledge/
+
+pricing:
+  free:
+    questions_per_day: 5
+    features:
+      - basic_answers
+  basic:
+    price_usd: 9.0
+    price_local: 160
+    questions_per_day: 40
+    features:
+      - basic_answers
+      - chat_history
+      - tax_calculations
+  pro:
+    price_usd: 19.0
+    price_local: 340
+    questions_per_day: unlimited
+    features:
+      - all
+
+payment:
+  stripe: true
+  local_providers:
+    - mercado_pago
+    - oxxo
+  telegram_stars: true
+
+telegram:
+  bot_token: "${MX_ACCOUNTANT_BOT_TOKEN}"
+  bot_username: ContadorIA_bot
+  welcome_message: |
+    🇲🇽 ¡Hola! Soy ContadorIA, tu asistente contable con inteligencia artificial.
+
+    Puedo ayudarte con:
+    🧾 SAT — facturación, CFDI, e.firma
+    📋 RFC — trámites, alta, actualización
+    💼 Régimen fiscal — RESICO, RIF, Personas Morales
+    📊 Declaraciones anuales y provisionales
+    💰 ISR, IVA, IMSS, INFONAVIT
+    🏢 Nómina y obligaciones patronales
+
+    ⚠️ Información general — para situaciones complejas o declaraciones oficiales, consulta a un Contador Público Certificado (CPC).
+
+    ¿Cuál es tu duda? 👇
+
+website:
+  domain: contadoria.com.mx
+  template: chat-landing
+  primary_color: "#006847"
+  logo: assets/contadoria-logo.svg
+
+seo:
+  title: "ContadorIA — Asistente Contable con IA | SAT, RFC, Facturación México"
+  description: "Resuelve dudas de SAT, RFC, CFDI, ISR, IVA y régimen fiscal con inteligencia artificial. Gratuito para México."
+  keywords:
+    - contador ia mexico
+    - sat facturacion ia
+    - rfc tramites
+    - declaracion anual isr
+    - resico regimen fiscal
+    - cfdi contabilidad mexico
+
+marketing:
+  target_groups:
+    - "telegram: grupos de emprendedores Mexico"
+    - "facebook: PyMEs y microempresarios Mexico"
+    - "reddit: r/mexico, r/emprendedores"
+  launch_offer: "7 días gratis del plan Basic"
+
+disclaimer: "💰 Aviso: Soy una IA informativa sobre contabilidad e impuestos en México. Mis respuestas son educativas y NO sustituyen los servicios de un Contador Público Certificado (CPC). Para declaraciones fiscales oficiales ante el SAT, contrata a un profesional certificado."

@@ -1,0 +1,84 @@
+bot_id: br-tutor
+name: TutorIA
+tagline: "Seu professor de IA para ENEM e vestibulares"
+
+country:
+  code: BR
+  name: Brasil
+  language: pt-BR
+  timezone: America/Sao_Paulo
+  currency: BRL
+
+niche:
+  type: tutor
+  category: education
+  requires_disclaimer: false
+  disclaimer_type: null
+
+llm:
+  free_tier: gemini-2.0-flash
+  paid_tier: gpt-4o-mini
+  fallback: ollama/llama3.2:3b
+  max_context_tokens: 4096
+  temperature: 0.5
+  knowledge_base: knowledge/
+
+pricing:
+  free:
+    questions_per_day: 5
+    features:
+    - basic_answers
+  basic:
+    price_usd: 9.0
+    price_local: 45
+    questions_per_day: 50
+    features:
+    - basic_answers
+    - chat_history
+    - worked_examples
+  pro:
+    price_usd: 19.0
+    price_local: 95
+    questions_per_day: unlimited
+    features:
+    - all
+
+payment:
+  stripe: true
+  local_providers:
+  - mercado_pago
+  - pix
+  telegram_stars: true
+
+telegram:
+  bot_token: "${BR_TUTOR_BOT_TOKEN}"
+  bot_username: TutorIA_bot
+  welcome_message: |
+    🇧🇷 Olá! Eu sou o TutorIA, seu professor de IA para ENEM e vestibulares!
+    Posso ajudar com Matemática, Português, Ciências, História, Geografia e muito mais.
+
+    📚 Estudando para o ENEM? Pode perguntar qualquer coisa!
+
+    Digite sua dúvida 👇
+
+website:
+  domain: tutoria.com.br
+  template: chat-landing
+  primary_color: "#009c3b"
+  logo: assets/tutoria-logo.svg
+
+seo:
+  title: "TutorIA — Professor de IA para ENEM e Vestibular | Brasil"
+  description: "Tire suas dúvidas de ENEM, vestibular e matérias do ensino médio com inteligência artificial. Gratuito."
+  keywords:
+  - professor ia
+  - enem ia
+  - estudar com inteligência artificial
+  - vestibular online
+
+marketing:
+  target_groups:
+  - "telegram: grupos de estudo ENEM"
+  - "facebook: estudantes vestibular brasil"
+  - "reddit: r/enem, r/vestibular"
+  launch_offer: "7 dias grátis do plano Basic"

@@ -1,0 +1,65 @@
+faqs:
+  - question: "Bagaimana cara membuat perjanjian kerja yang sah?"
+    answer: |
+      📋 Perjanjian Kerja yang sah harus memenuhi syarat:
+      1. **Kesepakatan kedua belah pihak** — pekerja dan pemberi kerja
+      2. **Kecakapan hukum** — kedua pihak sudah dewasa (≥18 tahun)
+      3. **Objek pekerjaan yang jelas** — jenis pekerjaan, upah, waktu kerja
+      4. **Tidak bertentangan dengan UU** — tidak melanggar UU No. 13/2003 dan UU Cipta Kerja
+
+      Perjanjian kerja bisa dibuat secara lisan (PKWTT) atau tertulis (PKWT). Untuk kontrak waktu tertentu (PKWT) WAJIB tertulis.
+
+  - question: "Berapa lama masa percobaan kerja yang diperbolehkan?"
+    answer: |
+      ⏱️ Masa percobaan kerja (probation) diatur dalam UU Ketenagakerjaan:
+      - Maksimum **3 bulan** untuk karyawan tetap (PKWTT)
+      - Untuk kontrak waktu tertentu (PKWT) — **tidak ada masa percobaan**
+      
+      Selama masa percobaan, upah tidak boleh di bawah upah minimum regional (UMR/UMP).
+
+  - question: "Apa hak pekerja jika di-PHK?"
+    answer: |
+      💰 Hak pekerja yang di-PHK (Pasal 156 UU Ketenagakerjaan & UU Cipta Kerja):
+      - **Uang pesangon** — tergantung masa kerja (1 bulan upah per tahun, maks 9 bulan)
+      - **Uang penghargaan masa kerja** — untuk masa kerja ≥3 tahun
+      - **Uang penggantian hak** — sisa cuti, biaya perumahan, pengobatan
+      - **Surat pengalaman kerja** — wajib diberikan
+
+      Besaran bervariasi tergantung alasan PHK. Jika PHK tidak sesuai prosedur, pekerja dapat mengajukan gugatan ke Pengadilan Hubungan Industrial (PHI).
+
+  - question: "Bagaimana cara mengatasi masalah dengan developer perumahan (sengketa properti)?"
+    answer: |
+      🏠 Langkah penyelesaian sengketa properti:
+      1. **Negosiasi langsung** dengan developer (dokumentasikan semua komunikasi)
+      2. **Mediasi** melalui BPSK (Badan Penyelesaian Sengketa Konsumen) — gratis
+      3. **Lapor ke OJK/Kemendag** jika developer terdaftar
+      4. **Gugatan perdata** ke Pengadilan Negeri
+      5. **Laporan pidana** jika ada penipuan (Pasal 378 KUHP)
+
+      Simpan semua bukti: perjanjian, kwitansi pembayaran, foto kondisi properti.
+
+  - question: "Apa itu PKWT dan PKWTT?"
+    answer: |
+      📝 Dua jenis perjanjian kerja di Indonesia:
+      
+      **PKWT** (Perjanjian Kerja Waktu Tertentu) = Kontrak:
+      - Untuk pekerjaan yang bersifat sementara/musiman
+      - Maksimum 5 tahun (termasuk perpanjangan)
+      - Wajib tertulis
+      - Tidak ada pesangon jika kontrak berakhir normal
+      
+      **PKWTT** (Perjanjian Kerja Waktu Tidak Tertentu) = Karyawan Tetap:
+      - Untuk pekerjaan tetap/berkelanjutan
+      - Bisa lisan atau tertulis
+      - Ada masa percobaan maks 3 bulan
+      - Mendapat pesangon jika di-PHK
+
+  - question: "Bagaimana cara melaporkan pelanggaran hak konsumen?"
+    answer: |
+      📣 Cara melaporkan pelanggaran hak konsumen:
+      1. **BPSK (Badan Penyelesaian Sengketa Konsumen)** — mediasi/arbitrase gratis
+      2. **YLKI (Yayasan Lembaga Konsumen Indonesia)** — pengaduan konsumen
+      3. **Laporan online** di portal resmi SIAP LINDUNGI (sipaling.kemendag.go.id)
+      4. **Pengadilan Negeri** untuk gugatan perdata
+      
+      Siapkan bukti: struk/nota pembelian, foto produk bermasalah, korespondensi dengan penjual.
