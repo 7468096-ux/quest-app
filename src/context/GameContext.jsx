@@ -24,8 +24,7 @@ export function GameProvider({ children }) {
   const [newLevel, setNewLevel] = useState(1);
   const [loading, setLoading] = useState(false);
 
-  // Settings (stored in localStorage for now)
-  const [aiApiKey, setAiApiKey] = useState(() => localStorage.getItem('quest_ai_key') || '');
+
 
   // Derived
   const level = run?.current_level || 1;
@@ -110,7 +109,7 @@ export function GameProvider({ children }) {
 
     try {
       const dayNumber = getDayNumber(run.started_at);
-      const result = await generateQuests(tasks, aiApiKey);
+      const result = await generateQuests(tasks);
 
       // Create day in DB
       const newDay = await createDay(
@@ -222,12 +221,6 @@ export function GameProvider({ children }) {
     setScreen('title');
   }
 
-  // --- Save API key ---
-  function saveApiKey(key) {
-    setAiApiKey(key);
-    localStorage.setItem('quest_ai_key', key);
-  }
-
   const value = {
     // Auth
     user,
@@ -247,9 +240,6 @@ export function GameProvider({ children }) {
     xpToNext,
     completedCount,
     allCompleted,
-    // Settings
-    aiApiKey,
-    saveApiKey,
     // Actions
     setScreen,
     enterDungeon,

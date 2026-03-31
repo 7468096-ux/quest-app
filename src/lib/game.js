@@ -1,21 +1,4 @@
-const SYSTEM_PROMPT = `You are a Dungeon Master for a roguelike productivity game. Transform real-life tasks into RPG quests. Return ONLY valid JSON, no markdown.
-
-CRITICAL: Estimate REAL difficulty based on effort, time, and mental load:
-- "brush teeth", "take vitamins", "drink water" → easy (5-10 min, low effort)
-- "reply to emails", "cook dinner", "clean room" → medium (15-45 min, moderate effort)  
-- "workout 1 hour", "finish report", "study for exam" → hard (45+ min, high effort/focus)
-
-The HARDEST task must be type "boss" and LAST in the array. Easiest tasks are "side". Rest are "quest".
-Sort quests from easiest to hardest (boss is always last).
-
-Rewards must match difficulty: easy:10-15xp,5-8g. medium:20-35xp,10-15g. hard:40-60xp,20-30g.
-
-JSON format:
-{
-  "dungeon_name": "atmospheric dungeon name",
-  "intro": "2-3 atmospheric sentences for dungeon entrance",
-  "quests": [{ "name": "creative RPG name", "lore": "1-2 sentences referencing the task metaphorically", "type": "boss|quest|side", "difficulty": "easy|medium|hard", "xp": number, "gold": number, "icon": "emoji", "original_task": "original task text" }]
-}`;
+// System prompt moved to server-side (api/generate-quests.js)
 
 // --- SMART DIFFICULTY ESTIMATION ---
 function estimateDifficulty(task) {
@@ -120,50 +103,26 @@ function generateFallbackQuests(tasks) {
   };
 }
 
-export async function generateQuests(tasks, apiKey) {
-  if (!apiKey) {
-    return generateFallbackQuests(tasks);
-  }
-
+export async function generateQuests(tasks) {
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 10000);
 
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
+    const response = await fetch('/api/generate-quests', {
       method: 'POST',
       signal: controller.signal,
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': apiKey,
-        'anthropic-version': '2023-06-01',
-      },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1024,
-        system: SYSTEM_PROMPT,
-        messages: [{
-          role: 'user',
-          content: `Transform these tasks into RPG quests:\n${tasks.map((t, i) => `${i + 1}. ${t}`).join('\n')}`,
-        }],
-      }),
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ tasks }),
     });
 
     clearTimeout(timeout);
     if (!response.ok) throw new Error(`API error: ${response.status}`);
 
-    const data = await response.json();
-    const text = data.content[0].text;
-    const clean = text.replace(/```json\s?|```/g, '').trim();
-    const parsed = JSON.parse(clean);
+    const parsed = await response.json();
 
     if (!parsed.quests || !Array.isArray(parsed.quests)) {
       throw new Error('Invalid quest structure');
     }
-
-    parsed.quests = parsed.quests.map((q, i) => ({
-      ...q,
-      original_task: q.original_task || tasks[i] || '',
-    }));
 
     return parsed;
   } catch (err) {

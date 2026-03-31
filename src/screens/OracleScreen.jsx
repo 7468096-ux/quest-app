@@ -3,10 +3,8 @@ import { useGame } from '../context/GameContext';
 import { Particles } from '../components/UI';
 
 export default function OracleScreen() {
-  const { generateDungeon, aiApiKey, saveApiKey } = useGame();
+  const { generateDungeon } = useGame();
   const [tasks, setTasks] = useState('');
-  const [showSettings, setShowSettings] = useState(false);
-  const [keyInput, setKeyInput] = useState(aiApiKey);
 
   function handleGenerate() {
     const lines = tasks
@@ -39,38 +37,6 @@ export default function OracleScreen() {
         <button className="btn-gold" onClick={handleGenerate}>
           Generate Dungeon
         </button>
-
-        <button
-          className="oracle-settings-toggle"
-          onClick={() => setShowSettings(!showSettings)}
-        >
-          ⚙️ {showSettings ? 'Hide' : 'AI'} Settings
-        </button>
-
-        {showSettings && (
-          <div className="oracle-settings fade-in">
-            <label className="settings-label">Anthropic API Key (optional)</label>
-            <input
-              type="password"
-              className="input-field"
-              value={keyInput}
-              onChange={e => setKeyInput(e.target.value)}
-              placeholder="sk-ant-..."
-            />
-            <button
-              className="btn-secondary"
-              onClick={() => {
-                saveApiKey(keyInput);
-                setShowSettings(false);
-              }}
-            >
-              Save Key
-            </button>
-            <p className="settings-note">
-              Without a key, quests use template generation. With a key, AI creates unique lore and names.
-            </p>
-          </div>
-        )}
       </div>
     </div>
   );
